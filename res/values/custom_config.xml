@@ -5,4 +5,7 @@
 
     <!-- Advanced VPN -->
     <bool name="config_advanced_vpn_enabled">false</bool>
+
+    <!-- Show battery information -->
+    <bool name="config_show_battery_info">true</bool>
 </resources>
