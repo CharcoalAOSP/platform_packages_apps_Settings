@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Um deine Privatsphäre zu schützen, sendet die Funktion „Glasklare Anrufe“ keine Audioinhalte oder Gespräche an Google.\n\nDie Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meisten Mobilfunknetzen verfügbar, nicht jedoch in 3G-Netzen.</string>
+    <string name="clear_calling_title">Glasklare Anrufe</string>
+    <string name="clear_calling_toggle">„Glasklare Anrufe“ verwenden</string>
+    <string name="clear_calling_topintro">Reduziert Hintergrundgeräusche während deiner Anrufe</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Suchanfrage löschen</string>
+    <string name="language_picker_page">Seite mit Sprachauswahl</string>
+    <string name="search_region">Regionen suchen</string>
+    <string name="search_region_page">Seite für Suchregion</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Funktion „Intelligenter Akku“ verwenden</string>
+    <string name="basic_battery_saver_title">Standard-Energiesparmodus</string>
+    <string name="basic_battery_saver_summary">Visuelle Effekte und Hintergrundaktivitäten werden eingeschränkt. Falls das dunkle Design deaktiviert ist, wird es aktiviert.</string>
+    <string name="battery_saver_reminder_category">Erinnerungen</string>
+    <string name="battery_saver_reminder_switch_title">Erinnerungen zum Energiesparmodus</string>
+    <string name="battery_saver_reminder_switch_summary">Bei niedrigem Akkustand erhältst du Erinnerungen</string>
+    <string name="battery_saver_schedule_category">Zeitplan</string>
+    <string name="battery_saver_schedule_switch_title">Aktivieren nach Akkustand</string>
+    <string name="battery_saver_schedule_switch_summary">Der Energiesparmodus wird aktiviert, sobald der Akkustand auf den festgelegten Wert fällt</string>
+    <string name="battery_schedule_title">Zeitplan und Erinnerungen</string>
+    <string name="battery_schedule_summary">Festlegen, wann der Energiesparmodus aktiviert wird</string>
+    <string name="extreme_battery_saver_title">Extrem-Energiesparmodus</string>
+    <string name="extreme_battery_saver_summary">Übernimmt alle oben aufgeführten Änderungen. Außerdem werden weniger wichtige Apps und deren Benachrichtigungen pausiert.</string>
+    <string name="unified_battery_saver_page_intro">Energie sparen, damit der Akku deines Smartphones bis zum nächsten Laden länger hält</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

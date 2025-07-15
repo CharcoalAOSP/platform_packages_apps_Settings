@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Belhelderheid stuur nie oudio of gesprekke na Google toe nie om jou privaatheid te beskerm.\n\nBelhelderheid werk vir wi-fi-oproepe en op die meeste netwerke, maar is nie vir 3G-netwerke beskikbaar nie.</string>
+    <string name="clear_calling_title">Oproepduidelikheid</string>
+    <string name="clear_calling_toggle">Gebruik Duidelike Oproepe</string>
+    <string name="clear_calling_topintro">Verminder agtergrondgeraas tydens oproepe</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Vee navraag uit</string>
+    <string name="language_picker_page">Taalkieserbladsy</string>
+    <string name="search_region">Deursoek streke</string>
+    <string name="search_region_page">Deursoek streekbladsy</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Gebruik Aanpasbare Battery</string>
+    <string name="basic_battery_saver_title">Standaardbatterybespaarder</string>
+    <string name="basic_battery_saver_summary">Beperk visuele effekte en agtergrondaktiwiteit. Skakel donkertema aan as dit nie klaar aan is nie.</string>
+    <string name="battery_saver_reminder_category">Onthounotas</string>
+    <string name="battery_saver_reminder_switch_title">Batterybespaarderonthounotas</string>
+    <string name="battery_saver_reminder_switch_summary">Kry onthounotas wanneer battery laag is</string>
+    <string name="battery_saver_schedule_category">Skedule</string>
+    <string name="battery_saver_schedule_switch_title">Skakel aan op grond van batteryvlak</string>
+    <string name="battery_saver_schedule_switch_summary">Batterybespaarder skakel aan wanneer battery die vlak wat jy gestel het, bereik</string>
+    <string name="battery_schedule_title">Skedule en onthounotas</string>
+    <string name="battery_schedule_summary">Bestuur wanneer Batterybespaarder aanskakel</string>
+    <string name="extreme_battery_saver_title">Superbatterybespaarder</string>
+    <string name="extreme_battery_saver_summary">Sluit alle veranderinge wat hier bo gelys word, in. Onderbreek ook nienoodsaaklike apps en hul kennisgewings.</string>
+    <string name="unified_battery_saver_page_intro">Bespaar krag om te help dat jou foon se battery langer tussen laaiprosesse hou</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

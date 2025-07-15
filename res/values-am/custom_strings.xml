@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">ግላዊነትዎን ለመጠበቅ ግልፅ ጥሪ ለGoogle ኦዲዮ ወይም ውይይቶችን አይልክም።\n\nግልፅ ጥሪ የWi-Fi ጥሪ ማድረጊያ እና በአብዛኛዎቹ አውታረ መረቦች ላይ ይሠራል፣ ለ3ጂ አውታረ መረቦች አይገኝም።</string>
+    <string name="clear_calling_title">ግልፅ ጥሪ</string>
+    <string name="clear_calling_toggle">ግልፅ ጥሪን ተጠቀም</string>
+    <string name="clear_calling_topintro">በጥሪዎች ጊዜ የበስተጀርባ ድምፆችን ይቀንሳል</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">መጠይቅ አጽዳ</string>
+    <string name="language_picker_page">የቋንቋ መራጭ ገፅ</string>
+    <string name="search_region">ክልሎችን ይፈልጉ</string>
+    <string name="search_region_page">የፍለጋ ክልል ገፅ</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">ተለማማጅ ባትሪን ይጠቀሙ</string>
+    <string name="basic_battery_saver_title">መደበኛ የባትሪ ኃይል ቆጣቢ</string>
+    <string name="basic_battery_saver_summary">የሚታዩ ነገሮች ተጽዕኖዎች እና የዳራ እንቅስቃሴን ይገድባል። ጠቆር ያለ ገጽታ ቀድሞውኑ ካልበራ ያበራዋል።</string>
+    <string name="battery_saver_reminder_category">አስታዋሾች</string>
+    <string name="battery_saver_reminder_switch_title">የባትሪ ኃይል ቆጣቢ አስታዋሾች</string>
+    <string name="battery_saver_reminder_switch_summary">ባትሪ አነስተኛ ሲሆን አስታዋሾችን ያግኙ</string>
+    <string name="battery_saver_schedule_category">መርሐግብር</string>
+    <string name="battery_saver_schedule_switch_title">በባትሪ ደረጃ ላይ በመመስረት አብራ</string>
+    <string name="battery_saver_schedule_switch_summary">ባትሪው ወደ እርስዎ ያዋቀሩት ደረጃ ላይ ሲወርድ የባትሪ ኃይል ቆጣቢ ይበራል</string>
+    <string name="battery_schedule_title">መርሐግብር እና አስታዋሾች</string>
+    <string name="battery_schedule_summary">የባትሪ ኃይል ቆጣቢ ሲበራ ያስተዳድሩ</string>
+    <string name="extreme_battery_saver_title">ከፍተኛ ባትሪ ቆጣቢ</string>
+    <string name="extreme_battery_saver_summary">ከላይ የተዘረዘሩትን ሁሉንም ለውጦች ያካትታል። እንዲሁም መሠረታዊ ያልሆኑ መተግበሪያዎችን እና ማሳወቂያዎቻቸውን ባሉበት ያቆማል።</string>
+    <string name="unified_battery_saver_page_intro">በሙሌቶች መካከል የስልክዎ ባትሪ ረዘም ላለ ጊዜ እንዲቆይ ለማገዝ ኃይል ይቆጥቡ</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

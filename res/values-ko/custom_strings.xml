@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">개인 정보 보호를 위해 선명한 통화 음질은 Google로 오디오 또는 대화를 전송하지 않습니다.\n\n선명한 통화 음질은 Wi-Fi 통화 및 대부분의 네트워크에서 작동하며 3G 네트워크에서는 사용할 수 없습니다.</string>
+    <string name="clear_calling_title">선명한 통화 음질</string>
+    <string name="clear_calling_toggle">선명한 통화 음질 사용</string>
+    <string name="clear_calling_topintro">통화 중 배경 소음 감소</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">검색어 삭제</string>
+    <string name="language_picker_page">언어 선택 도구 페이지</string>
+    <string name="search_region">지역 검색</string>
+    <string name="search_region_page">검색 지역 페이지</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">배터리 자동 조절 사용</string>
+    <string name="basic_battery_saver_title">기본 절전 모드</string>
+    <string name="basic_battery_saver_summary">시각 효과와 백그라운드 활동을 제한합니다. 어두운 테마가 아직 사용 설정되어 있지 않은 경우 사용 설정합니다.</string>
+    <string name="battery_saver_reminder_category">알림</string>
+    <string name="battery_saver_reminder_switch_title">절전 모드 알림</string>
+    <string name="battery_saver_reminder_switch_summary">배터리가 부족할 때 알림을 받습니다.</string>
+    <string name="battery_saver_schedule_category">일정</string>
+    <string name="battery_saver_schedule_switch_title">배터리 잔량에 따라 시작</string>
+    <string name="battery_saver_schedule_switch_summary">배터리 잔량이 설정한 수준까지 떨어지면 절전 모드가 시작됩니다.</string>
+    <string name="battery_schedule_title">일정 및 알림</string>
+    <string name="battery_schedule_summary">절전 모드가 켜지는 시점 관리</string>
+    <string name="extreme_battery_saver_title">최대 절전 모드</string>
+    <string name="extreme_battery_saver_summary">위의 모든 변경사항을 포함합니다. 필수 앱 및 알림을 제외하고 모두 일시중지합니다.</string>
+    <string name="unified_battery_saver_page_intro">다음 충전까지 휴대전화 배터리를 더 오래 사용할 수 있도록 전력을 절약합니다.</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

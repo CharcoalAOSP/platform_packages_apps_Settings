@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">‏כדי להגן על הפרטיות שלך, התכונה \"שיחה ללא רעשי רקע\" לא שולחת אודיו או שיחות ל-Google.\n\nהתכונה \"שיחה ללא רעשי רקע\" פועלת בשיחות Wi-Fi וברוב הרשתות. היא לא זמינה ברשתות 3G.</string>
+    <string name="clear_calling_title">שיחה בלי רעשי רקע</string>
+    <string name="clear_calling_toggle">שימוש ב\"שיחה ללא רעשי רקע\"</string>
+    <string name="clear_calling_topintro">הפחתת רעשי רקע במהלך שיחות</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">מחיקת השאילתה</string>
+    <string name="language_picker_page">דף הכלי לבחירת שפה</string>
+    <string name="search_region">חיפוש אזורים</string>
+    <string name="search_region_page">הדף של חיפוש אזורים</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">שימוש באופטימיזציה של ניצול הסוללה</string>
+    <string name="basic_battery_saver_title">חיסכון סטנדרטי בסוללה</string>
+    <string name="basic_battery_saver_summary">האפקטים הויזואליים והפעילות ברקע יוגבלו. העיצוב הכהה יופעל.</string>
+    <string name="battery_saver_reminder_category">תזכורות</string>
+    <string name="battery_saver_reminder_switch_title">תזכורות על סוללה חלשה</string>
+    <string name="battery_saver_reminder_switch_summary">קבלת תזכורות כשרמת הטעינה נמוכה</string>
+    <string name="battery_saver_schedule_category">לוח זמנים</string>
+    <string name="battery_saver_schedule_switch_title">הפעלה על סמך רמת הטעינה</string>
+    <string name="battery_saver_schedule_switch_summary">מצב \"חיסכון בסוללה\" יופעל כשהסוללה תגיע לרמה שהגדרת</string>
+    <string name="battery_schedule_title">לוח זמנים ותזכורות</string>
+    <string name="battery_schedule_summary">מתי יופעל מצב \"חיסכון בסוללה\"</string>
+    <string name="extreme_battery_saver_title">חיסכון משמעותי בסוללה</string>
+    <string name="extreme_battery_saver_summary">כל השינויים שרשומים למעלה, וגם השהיית אפליקציות לא חיוניות וההתראות שלהן.</string>
+    <string name="unified_battery_saver_page_intro">שימוש חסכוני בסוללת הטלפון יכול להאריך את פרק הזמן בין טעינות</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

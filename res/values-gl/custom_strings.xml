@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Para protexer a túa privacidade, coa función Chamadas nítidas non se lle envían a Google conversas nin audio.\n\nChamadas nítidas é compatible coa función Chamadas por wifi e coa maioría das redes. Non está dispoñible para redes 3G.</string>
+    <string name="clear_calling_title">Chamadas nítidas</string>
+    <string name="clear_calling_toggle">Usar Chamadas nítidas</string>
+    <string name="clear_calling_topintro">Reduce o ruído de fondo durante as chamadas</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Borrar a consulta</string>
+    <string name="language_picker_page">Páxina de selector de idioma</string>
+    <string name="search_region">Busca rexións</string>
+    <string name="search_region_page">Páxina de busca de rexión</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Usar batería intelixente</string>
+    <string name="basic_battery_saver_title">Aforro de batería estándar</string>
+    <string name="basic_battery_saver_summary">Reduce os efectos visuais e a actividade en segundo plano. Activa o tema escuro se non está activado.</string>
+    <string name="battery_saver_reminder_category">Recordatorios</string>
+    <string name="battery_saver_reminder_switch_title">Recordatorios de Aforro de batería</string>
+    <string name="battery_saver_reminder_switch_summary">Recibe recordatorios cando quede pouca batería</string>
+    <string name="battery_saver_schedule_category">Planificación</string>
+    <string name="battery_saver_schedule_switch_title">Activar en función do nivel de batería</string>
+    <string name="battery_saver_schedule_switch_summary">A función Aforro de batería actívase cando a carga chega ao nivel que definiches</string>
+    <string name="battery_schedule_title">Planificación e recordatorios</string>
+    <string name="battery_schedule_summary">Xestiona cando se activa Aforro de batería</string>
+    <string name="extreme_battery_saver_title">Aforro de batería extremo</string>
+    <string name="extreme_battery_saver_summary">Inclúense todos os cambios indicados anteriormente. Tamén pon en pausa as aplicacións non esenciais e as súas notificacións.</string>
+    <string name="unified_battery_saver_page_intro">Aforra enerxía para que a batería do teléfono dure máis tempo entre cargas</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">For å ivareta personvernet ditt sender Klare samtaler aldri lyd eller samtaler til Google.\n\nKlare samtaler fungerer med wifi-anrop og de fleste nettverk, men er ikke tilgjengelig for 3G-nettverk.</string>
+    <string name="clear_calling_title">Klare samtaler</string>
+    <string name="clear_calling_toggle">Bruk Klare samtaler</string>
+    <string name="clear_calling_topintro">Reduserer bakgrunnsstøy under anrop</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Slett søket</string>
+    <string name="language_picker_page">Språkvelgerside</string>
+    <string name="search_region">Søk etter regioner</string>
+    <string name="search_region_page">Søkeregionside</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Bruk tilpasset batteri</string>
+    <string name="basic_battery_saver_title">Standard batterisparing</string>
+    <string name="basic_battery_saver_summary">Reduserer visuelle effekter og bakgrunnsaktivitet. Slår på mørkt tema hvis det ikke er på allerede.</string>
+    <string name="battery_saver_reminder_category">Påminnelser</string>
+    <string name="battery_saver_reminder_switch_title">Påminnelser for batterisparing</string>
+    <string name="battery_saver_reminder_switch_summary">Få påminnelser når enheten har lite batteri</string>
+    <string name="battery_saver_schedule_category">Tidsplan</string>
+    <string name="battery_saver_schedule_switch_title">Slå på basert på batterinivået</string>
+    <string name="battery_saver_schedule_switch_summary">Batterisparing slås på når batteriet faller til et nivå du har valgt</string>
+    <string name="battery_schedule_title">Tidsplan og påminnelser</string>
+    <string name="battery_schedule_summary">Administrer når batterisparing slås på</string>
+    <string name="extreme_battery_saver_title">Ekstrem batterisparing</string>
+    <string name="extreme_battery_saver_summary">Inkluderer alle endringene ovenfor. Setter også apper som ikke er nødvendige, og tilhørende varsler, på pause.</string>
+    <string name="unified_battery_saver_page_intro">Reduser strømforbruket for å få telefonbatteriet til å vare lenger mellom ladinger</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

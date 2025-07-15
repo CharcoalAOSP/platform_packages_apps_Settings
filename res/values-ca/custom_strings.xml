@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Per protegir la teva privadesa, la funció Trucades nítides no envia àudio ni converses a Google.\n\nAquesta funció s\'utilitza en trucades per Wi‑Fi i la majoria de xarxes, però no està disponible per a xarxes 3G.</string>
+    <string name="clear_calling_title">Trucades nítides</string>
+    <string name="clear_calling_toggle">Utilitza Trucades nítides</string>
+    <string name="clear_calling_topintro">Redueix els sorolls de fons durant les trucades</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Esborra la consulta</string>
+    <string name="language_picker_page">Pàgina del selector d\'idioma</string>
+    <string name="search_region">Cerca regions</string>
+    <string name="search_region_page">Pàgina de la regió de cerca</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Utilitza la bateria adaptativa</string>
+    <string name="basic_battery_saver_title">Estalvi de bateria estàndard</string>
+    <string name="basic_battery_saver_summary">Limita els efectes visuals i l\'activitat en segon pla. Activa el tema fosc si encara no està activat.</string>
+    <string name="battery_saver_reminder_category">Recordatoris</string>
+    <string name="battery_saver_reminder_switch_title">Recordatoris d\'Estalvi de bateria</string>
+    <string name="battery_saver_reminder_switch_summary">Obtén recordatoris quan quedi poca bateria</string>
+    <string name="battery_saver_schedule_category">Programació</string>
+    <string name="battery_saver_schedule_switch_title">Activa segons el nivell de bateria</string>
+    <string name="battery_saver_schedule_switch_summary">La funció Estalvi de bateria s\'activa quan el nivell és inferior al que defineixis</string>
+    <string name="battery_schedule_title">Programació i recordatoris</string>
+    <string name="battery_schedule_summary">Gestiona quan vols que s\'activi la funció Estalvi de bateria</string>
+    <string name="extreme_battery_saver_title">Estalvi de bateria extrem</string>
+    <string name="extreme_battery_saver_summary">Inclou tots els canvis anteriors. També posa en pausa aplicacions no essencials i les seves notificacions.</string>
+    <string name="unified_battery_saver_page_intro">Estalvia energia perquè la bateria del telèfon duri més entre càrregues</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

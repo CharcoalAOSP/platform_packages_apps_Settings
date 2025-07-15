@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Құпиялығыңызды қорғау үшін таза дауыс функциясы Google-ға аудиофайлдарды немесе әңгімелерді жібермейді.\n\nФункция Wi‑Fi қоңырауында және тағы басқа желілерде істейді, бірақ 3G желісінде істемейді.</string>
+    <string name="clear_calling_title">Таза дауыс</string>
+    <string name="clear_calling_toggle">\"Таза дауыс\" функциясын пайдалану</string>
+    <string name="clear_calling_topintro">Қоңырау кезінде болатын фондағы шуды азайтады.</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Сұрақты өшіру</string>
+    <string name="language_picker_page">Тіл таңдағыш беті</string>
+    <string name="search_region">Аймақтарды іздеу</string>
+    <string name="search_region_page">Аймақты іздеу беті</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Батарея шығынын бейімдеу</string>
+    <string name="basic_battery_saver_title">Стандартты батарея үнемдеу режимі</string>
+    <string name="basic_battery_saver_summary">Визуалдық әсерлер мен фондық әрекет жұмысын шектейді. Қараңғы режим әлі қосылмаған болса, оны қосып қояды.</string>
+    <string name="battery_saver_reminder_category">Еске салғыштар</string>
+    <string name="battery_saver_reminder_switch_title">Батареяны үнемдеу режимінің еске салғыштары</string>
+    <string name="battery_saver_reminder_switch_summary">Батарея заряды төмен болғанда, еске салғыштар алу</string>
+    <string name="battery_saver_schedule_category">Кесте</string>
+    <string name="battery_saver_schedule_switch_title">Батарея деңгейіне қарай қосу</string>
+    <string name="battery_saver_schedule_switch_summary">Батарея сіз орнатқан деңгейге дейін азайғанда, батареяны үнемдеу режимі қосылады.</string>
+    <string name="battery_schedule_title">Кесте мен еске салғыштар</string>
+    <string name="battery_schedule_summary">Батареяны үнемдеу режимі қосылатын уақытты реттеу</string>
+    <string name="extreme_battery_saver_title">Батареяны барынша үнемдеу режимі</string>
+    <string name="extreme_battery_saver_summary">Жоғарыда берілген барлық өзгерісті қамтиды. Сондай-ақ маңызды емес қолданбалар мен олардың хабарландыруларын кідіртіп қояды.</string>
+    <string name="unified_battery_saver_page_intro">Қуат үнемдесеңіз, телефон батареясы қайта зарядтаусыз ұзағырақ қызмет етеді.</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Klart samtalsljud skickar inte ljud eller konversationer till Google, för att skydda din integritet.\n\nKlart samtalsljud fungerar med wifi-samtal och nästan alla nätverk, men det är inte tillgängligt för 3G-nätverk.</string>
+    <string name="clear_calling_title">Klart samtalsljud</string>
+    <string name="clear_calling_toggle">Använd Klart samtalsljud</string>
+    <string name="clear_calling_topintro">Minskar bakgrundsljud under samtal</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Ta bort frågan</string>
+    <string name="language_picker_page">Språkväljarsida</string>
+    <string name="search_region">Sök efter regioner</string>
+    <string name="search_region_page">Sökområdessida</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Använd Smart batteri</string>
+    <string name="basic_battery_saver_title">Standardbatterisparläge</string>
+    <string name="basic_battery_saver_summary">Begränsar visuella effekter och aktivitet i bakgrunden. Mörkt tema aktiveras om det inte redan är på.</string>
+    <string name="battery_saver_reminder_category">Påminnelser</string>
+    <string name="battery_saver_reminder_switch_title">Påminnelser om batterisparläget</string>
+    <string name="battery_saver_reminder_switch_summary">Få påminnelser när batterinivån är låg</string>
+    <string name="battery_saver_schedule_category">Schema</string>
+    <string name="battery_saver_schedule_switch_title">Aktivera utifrån batterinivå</string>
+    <string name="battery_saver_schedule_switch_summary">Batterisparläget aktiveras när batterinivån når nivån du har angett</string>
+    <string name="battery_schedule_title">Schema och påminnelser</string>
+    <string name="battery_schedule_summary">Hantera när batterisparläget aktiveras</string>
+    <string name="extreme_battery_saver_title">Effektivare batterisparläge</string>
+    <string name="extreme_battery_saver_summary">Omfattar alla ändringar som anges ovan. Appar som inte är viktiga och deras aviseringar pausas också.</string>
+    <string name="unified_battery_saver_page_intro">Använd mindre ström så att telefonens batteri räcker längre</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

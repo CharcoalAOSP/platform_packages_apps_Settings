@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Radi zaštite vaše privatnosti razgovijetni pozivi ne šalju zvuk ili razgovore Googleu.\n\nRazgovijetni pozivi funkcioniraju u Pozivanju putem WiFi-ja i na većini mreža, a nisu dostupni za 3G mreže.</string>
+    <string name="clear_calling_title">Razgovijetni pozivi</string>
+    <string name="clear_calling_toggle">Koristi razgovijetne pozive</string>
+    <string name="clear_calling_topintro">Smanjuje buku u pozadini tokom poziva</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Brisanje upita</string>
+    <string name="language_picker_page">Stranica birača jezika</string>
+    <string name="search_region">Pretražite regije</string>
+    <string name="search_region_page">Stranica regije pretraživanja</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Koristi prilagodljivu bateriju</string>
+    <string name="basic_battery_saver_title">Standardna ušteda baterije</string>
+    <string name="basic_battery_saver_summary">Ograničava vizuelne efekte i aktivnost u pozadini. Uključuje tamnu temu ako nije već uključena.</string>
+    <string name="battery_saver_reminder_category">Podsjetnici</string>
+    <string name="battery_saver_reminder_switch_title">Podsjetnici za uštedu baterije</string>
+    <string name="battery_saver_reminder_switch_summary">Primajte podsjetnike kada je napunjenost baterije slaba</string>
+    <string name="battery_saver_schedule_category">Raspored</string>
+    <string name="battery_saver_schedule_switch_title">Uključi na osnovu nivoa baterije</string>
+    <string name="battery_saver_schedule_switch_summary">Ušteda baterije se uključuje kada baterija padne ispod nivoa koji ste postavili</string>
+    <string name="battery_schedule_title">Raspored i podsjetnici</string>
+    <string name="battery_schedule_summary">Kontrolirajte kada se uključuje Ušteda baterije</string>
+    <string name="extreme_battery_saver_title">Ekstremna ušteda baterije</string>
+    <string name="extreme_battery_saver_summary">Obuhvata sve promjene navedene iznad. Također pauzira neprioritetne aplikacije i njihova obavještenja.</string>
+    <string name="unified_battery_saver_page_intro">Štedite energiju da omogućite da baterija telefona traje duže između punjenja</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

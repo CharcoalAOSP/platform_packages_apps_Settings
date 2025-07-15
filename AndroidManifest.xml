@@ -6316,6 +6316,36 @@
             </intent-filter>
         </receiver>
 
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+        <!-- Battery saver -->
+        <activity
+            android:name="com.google.android.settings.fuelgauge.batterysaver.AdaptiveBatteryTrampoline"
+            android:label="@string/smart_battery_title"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.settings.fuelgauge.batterysaver.AdaptiveBatteryTrampoline"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_battery"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true"/>
+        </activity>
+
+        <activity
+            android:name="com.google.android.settings.fuelgauge.batterysaver.BatterySaverScheduleTrampoline"
+            android:label="@string/battery_schedule_title"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.settings.fuelgauge.batterysaver.BatterySaverScheduleTrampoline"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_battery"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true"/>
+        </activity>
+=======
         <!-- System Updates -->
         <activity
             android:name="com.google.android.settings.update.SoftwareUpdateActivity"
@@ -6357,6 +6387,7 @@
                 <action android:name="com.google.android.setupwizard.SETUP_WIZARD_FINISHED"/>
             </intent-filter>
         </receiver>
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)
 
     </application>
 </manifest>

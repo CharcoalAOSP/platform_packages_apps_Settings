@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">С цел защита на поверителността ви функцията за обаждане със звук без фонов шум не изпраща до Google аудио, нито разговори.\n\nТази функция работи с обаждания през Wi-Fi и повечето мрежи, но не е налице за 3G мрежи.</string>
+    <string name="clear_calling_title">Обаждане с ясен звук</string>
+    <string name="clear_calling_toggle">Използване на обаждане със звук без фонов шум</string>
+    <string name="clear_calling_topintro">Намалява фоновия шум по време на обаждания</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Изчистване на заявката</string>
+    <string name="language_picker_page">Страница за избор на език</string>
+    <string name="search_region">Търсете региони</string>
+    <string name="search_region_page">Страница за региона на търсенето</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Използване на режима за адаптивна батерия</string>
+    <string name="basic_battery_saver_title">Стандартен режим за запазване на батерията</string>
+    <string name="basic_battery_saver_summary">Ограничава визуалните ефекти и активността на заден план. Включва тъмната тема, ако не е активирана.</string>
+    <string name="battery_saver_reminder_category">Напомняния</string>
+    <string name="battery_saver_reminder_switch_title">Напомняния за режима за запазване на батерията</string>
+    <string name="battery_saver_reminder_switch_summary">Получавайте напомняния, когато батерията е изтощена</string>
+    <string name="battery_saver_schedule_category">Насрочване</string>
+    <string name="battery_saver_schedule_switch_title">Включване въз основа на нивото на батерията</string>
+    <string name="battery_saver_schedule_switch_summary">Режимът за запазване на батерията се включва, когато зарядът ѝ падне до зададено от вас ниво</string>
+    <string name="battery_schedule_title">График и напомняния</string>
+    <string name="battery_schedule_summary">Управление на включването на режима за запазване на батерията</string>
+    <string name="extreme_battery_saver_title">Екстремен режим за запазване на батерията</string>
+    <string name="extreme_battery_saver_summary">Включва всички посочени по-горе промени. Също така поставя на пауза маловажните приложения и съответните известия.</string>
+    <string name="unified_battery_saver_page_intro">Пестете енергия, така че батерията на телефона ви да издържа по-дълго между зарежданията</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

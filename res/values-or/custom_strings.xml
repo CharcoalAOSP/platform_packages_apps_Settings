@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">ଆପଣଙ୍କ ଗୋପନୀୟତାକୁ ସୁରକ୍ଷିତ ରଖିବା ପାଇଁ କ୍ଲିଅର କଲିଂ Googleକୁ ଅଡିଓ କିମ୍ବା ବାର୍ତ୍ତାଳାପ ପଠାଏ ନାହିଁ।\n\nକ୍ଲିଅର କଲିଂ ୱାଇ-ଫାଇ କଲିଂ ଏବଂ ଅଧିକାଂଶ ନେଟୱାର୍କରେ କାମ କରେ, କିନ୍ତୁ ଏହା 3G ନେଟୱାର୍କ ପାଇଁ ଉପଲବ୍ଧ ନାହିଁ।</string>
+    <string name="clear_calling_title">କ୍ଲିଅର କଲିଂ</string>
+    <string name="clear_calling_toggle">କ୍ଲିଅର କଲିଂ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="clear_calling_topintro">କଲ ସମୟରେ ବେକଗ୍ରାଉଣ୍ଡ ନଏଜକୁ କମ କରେ</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">କ୍ୱେରୀ ଖାଲି କରନ୍ତୁ</string>
+    <string name="language_picker_page">ଭାଷା ପିକର ପୃଷ୍ଠା</string>
+    <string name="search_region">ଅଞ୍ଚଳ ସର୍ଚ୍ଚ କରନ୍ତୁ</string>
+    <string name="search_region_page">ଅଞ୍ଚଳ ସର୍ଚ୍ଚ କରିବା ପୃଷ୍ଠା</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">ଆଡେପ୍ଟିଭ ବେଟେରୀ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="basic_battery_saver_title">ଷ୍ଟାଣ୍ଡାର୍ଡ ବେଟେରୀ ସେଭର</string>
+    <string name="basic_battery_saver_summary">ଭିଜୁଆଲ ଇଫେକ୍ଟ ଏବଂ ବେକଗ୍ରାଉଣ୍ଡର କାର୍ଯ୍ୟକଳାପକୁ ସୀମିତ କରେ। ଯଦି ଡାର୍କ ଥିମ ପୂର୍ବରୁ ଚାଲୁ ହୋଇନଥାଏ, ତେବେ ଏହାକୁ ଚାଲୁ କରେ।</string>
+    <string name="battery_saver_reminder_category">ରିମାଇଣ୍ଡରଗୁଡ଼ିକ</string>
+    <string name="battery_saver_reminder_switch_title">ବେଟେରୀ ସେଭର ରିମାଇଣ୍ଡରଗୁଡ଼ିକ</string>
+    <string name="battery_saver_reminder_switch_summary">ବେଟେରୀର ଚାର୍ଜ କମ ଥିବା ସମୟରେ ରିମାଇଣ୍ଡର ପାଆନ୍ତୁ</string>
+    <string name="battery_saver_schedule_category">ସିଡୁଲ</string>
+    <string name="battery_saver_schedule_switch_title">ବେଟେରୀ ଲେଭେଲ ଆଧାରରେ ଚାଲୁ କରନ୍ତୁ</string>
+    <string name="battery_saver_schedule_switch_summary">ବେଟେରୀ ଆପଣ ସେଟ କରିଥିବା ଏକ ଲେଭେଲରୁ କମ ହେବା ସମୟରେ ବେଟେରୀ ସେଭର ଚାଲୁ ହୁଏ</string>
+    <string name="battery_schedule_title">ସିଡୁଲ ଏବଂ ରିମାଇଣ୍ଡର</string>
+    <string name="battery_schedule_summary">ବେଟେରୀ ସେଭର ଚାଲୁ ହେଲେ ପରିଚାଳନା କରନ୍ତୁ</string>
+    <string name="extreme_battery_saver_title">ଏକ୍ସଟ୍ରିମ ବେଟେରୀ ସେଭର</string>
+    <string name="extreme_battery_saver_summary">ଉପରେ ତାଲିକାଭୁକ୍ତ ସମସ୍ତ ପରିବର୍ତ୍ତନକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରେ। ଏହା ସହିତ ଅତ୍ୟାବଶ୍ୟକ-ହୋଇନଥିବା ଆପ୍ସ ଏବଂ ସେଗୁଡ଼ିକର ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ବିରତ କରେ।</string>
+    <string name="unified_battery_saver_page_intro">ଚାର୍ଜଗୁଡ଼ିକ ମଧ୍ୟରେ ଆପଣଙ୍କ ଫୋନର ବେଟେରୀ ଅଧିକ ସମୟ ପର୍ଯ୍ୟନ୍ତ ଚାଲିବାରେ ସାହାଯ୍ୟ କରିବାକୁ ପାୱାର ସେଭ କରନ୍ତୁ</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

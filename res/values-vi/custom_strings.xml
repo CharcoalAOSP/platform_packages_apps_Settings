@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Để bảo vệ quyền riêng tư của bạn, tính năng Khử tiếng ồn không gửi âm thanh hay cuộc trò chuyện cho Google.\n\nTính năng này hoạt động với tính năng Gọi qua Wi-Fi và hầu hết các mạng (không hoạt động với mạng 3G).</string>
+    <string name="clear_calling_title">Khử tiếng ồn</string>
+    <string name="clear_calling_toggle">Sử dụng tính năng khử tiếng ồn</string>
+    <string name="clear_calling_topintro">Giảm tiếng ồn xung quanh trong lúc thực hiện cuộc gọi</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Xoá cụm từ tìm kiếm</string>
+    <string name="language_picker_page">Trang bộ chọn ngôn ngữ</string>
+    <string name="search_region">Tìm khu vực</string>
+    <string name="search_region_page">Trang tìm kiếm theo khu vực</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Sử dụng Pin thích ứng</string>
+    <string name="basic_battery_saver_title">Trình tiết kiệm pin tiêu chuẩn</string>
+    <string name="basic_battery_saver_summary">Giới hạn hiệu ứng hình ảnh và hoạt động trong nền. Bật giao diện tối nếu chưa bật.</string>
+    <string name="battery_saver_reminder_category">Lời nhắc</string>
+    <string name="battery_saver_reminder_switch_title">Lời nhắc tiết kiệm pin</string>
+    <string name="battery_saver_reminder_switch_summary">Nhận lời nhắc khi pin ở mức thấp</string>
+    <string name="battery_saver_schedule_category">Lịch biểu</string>
+    <string name="battery_saver_schedule_switch_title">Bật dựa trên mức pin</string>
+    <string name="battery_saver_schedule_switch_summary">Tính năng Tiết kiệm pin sẽ bật khi pin giảm xuống mức bạn đã thiết lập</string>
+    <string name="battery_schedule_title">Lịch biểu và lời nhắc</string>
+    <string name="battery_schedule_summary">Quản lý thời điểm bật Trình tiết kiệm pin</string>
+    <string name="extreme_battery_saver_title">Trình siêu tiết kiệm pin</string>
+    <string name="extreme_battery_saver_summary">Chế độ này sẽ thực hiện mọi thay đổi nêu trên. Đồng thời tạm dừng các ứng dụng không thiết yếu và thông báo của những ứng dụng đó.</string>
+    <string name="unified_battery_saver_page_intro">Tiết kiệm pin để kéo dài thời lượng pin của điện thoại giữa các lần sạc</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Selkeä-ääniset puhelut ei lähetä audiota tai keskusteluja Googlelle yksityisyytesi suojaamiseksi.\n\nSelkeä-ääniset puhelut toimii Wi-Fi-puheluiden ja useimpien mobiiliverkkojen kautta (ei ole saatavilla 3G-verkoissa).</string>
+    <string name="clear_calling_title">Selkeä-ääniset puhelut</string>
+    <string name="clear_calling_toggle">Käytä selkeä-äänisiä puheluja</string>
+    <string name="clear_calling_topintro">Vähentää taustahälyä puheluiden aikana</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Tyhjennä kysely</string>
+    <string name="language_picker_page">Kielivalitsimen sivu</string>
+    <string name="search_region">Hae alueita</string>
+    <string name="search_region_page">Hakualueen sivu</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Käytä mukautuvaa virtaa</string>
+    <string name="basic_battery_saver_title">Akun vakiosäästö</string>
+    <string name="basic_battery_saver_summary">Rajoittaa visuaalisia tehosteita ja taustatoimintaa. Laittaa tumman teeman päälle, jos se ei vielä ole.</string>
+    <string name="battery_saver_reminder_category">Muistutukset</string>
+    <string name="battery_saver_reminder_switch_title">Virransäästömuistutukset</string>
+    <string name="battery_saver_reminder_switch_summary">Tilaa ilmoitukset akun alhaisesta varaustasosta</string>
+    <string name="battery_saver_schedule_category">Aikataulu</string>
+    <string name="battery_saver_schedule_switch_title">Laita päälle akun varaustason mukaan</string>
+    <string name="battery_saver_schedule_switch_summary">Virransäästö käynnistyy, kun akun virta laskee asettamasi tason alle</string>
+    <string name="battery_schedule_title">Aikataulu ja muistutukset</string>
+    <string name="battery_schedule_summary">Valitse, milloin virransäästö menee päälle</string>
+    <string name="extreme_battery_saver_title">Akun tehosäästö</string>
+    <string name="extreme_battery_saver_summary">Sisältää yllä mainitut muutokset. Keskeyttää myös toissijaiset sovellukset ja niiden ilmoitukset.</string>
+    <string name="unified_battery_saver_page_intro">Säästä virtaa ja auta puhelimen akkua kestämään pidempään latausten välillä</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Чтобы обеспечить конфиденциальность, функция \"Чистый звук\" не передает аудиозаписи и расшифровки разговоров в Google.\n\nЭта функция недоступна для сетей 3G, но ее можно использовать при звонках по Wi‑Fi и большинству мобильных сетей.</string>
+    <string name="clear_calling_title">Чистый звук</string>
+    <string name="clear_calling_toggle">Чистый звук</string>
+    <string name="clear_calling_topintro">Подавление фонового шума при разговоре</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Удалить запрос</string>
+    <string name="language_picker_page">Страница выбора языка</string>
+    <string name="search_region">Поиск региона</string>
+    <string name="search_region_page">Страница настройки региона поиска</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Адаптивное энергопотребление</string>
+    <string name="basic_battery_saver_title">Стандартный режим энергосбережения</string>
+    <string name="basic_battery_saver_summary">Ограничить визуальные эффекты и фоновые процессы, включить тёмную тему</string>
+    <string name="battery_saver_reminder_category">Напоминания</string>
+    <string name="battery_saver_reminder_switch_title">Напоминания режима энергосбережения</string>
+    <string name="battery_saver_reminder_switch_summary">Получать напоминания о низком уровне заряда батареи</string>
+    <string name="battery_saver_schedule_category">Расписание</string>
+    <string name="battery_saver_schedule_switch_title">Включать с учетом уровня заряда батареи</string>
+    <string name="battery_saver_schedule_switch_summary">Режим энергосбережения включается, когда заряд батареи уменьшается до установленного вами уровня</string>
+    <string name="battery_schedule_title">Расписание и напоминания</string>
+    <string name="battery_schedule_summary">Настроить, когда включается режим энергосбережения</string>
+    <string name="extreme_battery_saver_title">Режим экстренного энергосбережения</string>
+    <string name="extreme_battery_saver_summary">Делает то же, что и стандартный режим, а также приостанавливает приложения, без которых можно обойтись, и их уведомления</string>
+    <string name="unified_battery_saver_page_intro">Настройте режим энергосбережения, чтобы телефон дольше работал без подзарядки.</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

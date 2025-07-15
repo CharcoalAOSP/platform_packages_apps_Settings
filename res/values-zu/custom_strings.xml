@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Ukuze uvikele ubumfihlo bakho, Ukushaya Okucacile akuthumeli umsindo noma izingxoxo ku-Google. \n\nUkushaya Okucacile kusebenza ekushayeni kwe-Wi-Fi kanye namanethiwekhi amaningi, awatholakali kumanethiwekhi e-3G.</string>
+    <string name="clear_calling_title">Ukufona Okucacile</string>
+    <string name="clear_calling_toggle">Sebenzisa Ukufona Okucacile</string>
+    <string name="clear_calling_topintro">Inciphisa umsindo wangemuva phakathi namakholi</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Sula inkinga</string>
+    <string name="language_picker_page">Ikhasi lokukhetha ulimi</string>
+    <string name="search_region">Sesha izifunda</string>
+    <string name="search_region_page">Ikhasi lokusesha isifunda</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Sebenzisa i-Adaptive Battery</string>
+    <string name="basic_battery_saver_title">Isilondolozi Sebhethri Esijwayelekile</string>
+    <string name="basic_battery_saver_summary">Khawulela imithelela yokubukwayo nomsebenzi wangemuva. Ivula itimu emnyama, uma ingakavulwa.</string>
+    <string name="battery_saver_reminder_category">Izikhumbuzi</string>
+    <string name="battery_saver_reminder_switch_title">Izikhumbuzi Zesilondolozi Sebhethri</string>
+    <string name="battery_saver_reminder_switch_summary">Thola izikhumbuzi uma ibhethri liphansi</string>
+    <string name="battery_saver_schedule_category">Ishejuli</string>
+    <string name="battery_saver_schedule_switch_title">Vula ngokusekelwe kuleveli yebhethri</string>
+    <string name="battery_saver_schedule_switch_summary">Isilondolozi Sebhethri siyavula uma ibhethri liwela ezingeni olisethile</string>
+    <string name="battery_schedule_title">Shejula izikhumbuzi</string>
+    <string name="battery_schedule_summary">Phatha lapho Isilondolozi Sebhethri sivuleka</string>
+    <string name="extreme_battery_saver_title">Isilondolozi Sebhethri Esikhulu</string>
+    <string name="extreme_battery_saver_summary">Kufaka phakathi zonke izinguquko ezibalwe ngenhla. Iphinde imise ama-app angabalulekile kanye nezaziso zawo.</string>
+    <string name="unified_battery_saver_page_intro">Yonga amandla ukuze usize ibhethri yefoni yakho ihlale isikhathi eside phakathi nokushajwa</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

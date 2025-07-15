@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Til að gæta persónuverndar sendir Skýrt símtal aldrei hljóð eða samtöl til Google.\n\nSkýrt símtal virkar í WiFi-símtölum og á flestum netkerfum en er ekki í boði fyrir 3G-net.</string>
+    <string name="clear_calling_title">Skýrt símtal</string>
+    <string name="clear_calling_toggle">Nota Skýrt símtal</string>
+    <string name="clear_calling_topintro">Dregur úr bakgrunnshljóðum meðan á símtali stendur</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Hreinsa fyrirspurn</string>
+    <string name="language_picker_page">Síða tungumálavals</string>
+    <string name="search_region">Leita að svæðum</string>
+    <string name="search_region_page">Síða leitarsvæðis</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Nota breytilega rafhlöðustjórnun</string>
+    <string name="basic_battery_saver_title">Venjulegur rafhlöðusparnaður</string>
+    <string name="basic_battery_saver_summary">Takmarkar myndáhrif og bakgrunnsvirkni. Kveikir á dökku þema, ef ekki er þegar kveikt á því.</string>
+    <string name="battery_saver_reminder_category">Áminningar</string>
+    <string name="battery_saver_reminder_switch_title">Áminningar um rafhlöðusparnað</string>
+    <string name="battery_saver_reminder_switch_summary">Fá áminningar þegar rafhleðslan er lítil</string>
+    <string name="battery_saver_schedule_category">Áætlun</string>
+    <string name="battery_saver_schedule_switch_title">Kveikja í samræmi við rafhlöðustöðu</string>
+    <string name="battery_saver_schedule_switch_summary">Rafhlöðusparnaður fer í gang þegar rafhlaðan nær mörkunum sem þú stillir</string>
+    <string name="battery_schedule_title">Áætlun og áminningar</string>
+    <string name="battery_schedule_summary">Stjórna því hvenær kviknar á rafhlöðusparnaði</string>
+    <string name="extreme_battery_saver_title">Ofurrafhlöðu­sparnaður</string>
+    <string name="extreme_battery_saver_summary">Inniheldur allar breytingar sem getið er hér að ofan. Gerir einnig hlé á ónauðsynlegum forritum og tilkynningum frá þeim.</string>
+    <string name="unified_battery_saver_page_intro">Sparaðu rafhlöðuna til að rafhleðsla símans endist lengur á milli hleðslna</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

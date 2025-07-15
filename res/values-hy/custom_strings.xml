@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Ձեր գաղտնիությունն ապահովելու համար «Մաքուր ձայնով զանգեր» գործառույթը չի ուղարկում ձայնագրությունները կամ զրույցները Google-ին։\n\n«Մաքուր ձայնով զանգեր» գործառույթն աշխատում է Wi‑Fi-ով զանգերի դեպքում և ցանցերի մեծամասնությունում, սակայն հասանելի չէ 3G ցանցերի համար։</string>
+    <string name="clear_calling_title">Մաքուր ձայնով զանգեր</string>
+    <string name="clear_calling_toggle">Օգտագործել «Մաքուր ձայնով զանգեր» գործառույթը</string>
+    <string name="clear_calling_topintro">Նվազեցնում է ֆոնային աղմուկը զանգերի ժամանակ</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Մաքրել հարցումը</string>
+    <string name="language_picker_page">Լեզվի ընտրիչի էջ</string>
+    <string name="search_region">Որոնեք տարածաշրջաններ</string>
+    <string name="search_region_page">Տարածաշրջանի որոնման էջ</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Միացնել «Հարմարվող մարտկոց» գործառույթը</string>
+    <string name="basic_battery_saver_title">Մարտկոցի տնտեսման ստանդարտ ռեժիմ</string>
+    <string name="basic_battery_saver_summary">Սահմանափակում է վիզուալ էֆեկտները և աշխատանքը ֆոնային ռեժիմում։ Միացնում է մուգ թեման, եթե այն դեռ միացված չէ։</string>
+    <string name="battery_saver_reminder_category">Հիշեցումներ</string>
+    <string name="battery_saver_reminder_switch_title">Մարտկոցի տնտեսման հիշեցումներ</string>
+    <string name="battery_saver_reminder_switch_summary">Ստանալ հիշեցումներ, երբ մարտկոցի լիցքը քիչ է</string>
+    <string name="battery_saver_schedule_category">Ժամանակացույց</string>
+    <string name="battery_saver_schedule_switch_title">Միացնել մարտկոցի լիցքի հիման վրա</string>
+    <string name="battery_saver_schedule_switch_summary">Մարտկոցի տնտեսումը միանում է, երբ մարտկոցի լիցքը իջնում է մինչև ձեր սահմանած մակարդակը</string>
+    <string name="battery_schedule_title">Ժամանակացույց և հիշեցումներ</string>
+    <string name="battery_schedule_summary">Կարգավորել, թե երբ պետք է մարտկոցի տնտեսումը միանա</string>
+    <string name="extreme_battery_saver_title">Մարտկոցի առավելագույն տնտեսում</string>
+    <string name="extreme_battery_saver_summary">Ներառում է վերը թվարկված բոլոր փոփոխությունները։ Ինչպես նաև դադարեցնում է երկրորդական հավելվածների աշխատանքը և անջատում դրանց ծանուցումները։</string>
+    <string name="unified_battery_saver_page_intro">Տնտեսեք մարտկոցի լիցքը, որպեսզի ավելի երկար օգտագործեք հեռախոսը լիցքավորումների միջակայքում</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">သင့်ကိုယ်ရေးအချက်အလက်လုံခြုံမှုကို ကာကွယ်ရန် ‘ဖုန်းဆူညံသံဖျောက်ခြင်း’ သည် အသံ (သို့) စကားဝိုင်းများကို Google သို့မပို့ပါ။\n\n‘ဖုန်းဆူညံသံဖျောက်ခြင်း’ သည် Wi-Fi ခေါ်ဆိုမှုနှင့် ကွန်ရက်အများစုတွင် လုပ်ဆောင်ပြီး ၎င်းကို 3G ကွန်ရက်များအတွက် မရနိုင်ပါ။</string>
+    <string name="clear_calling_title">ဖုန်းဆူညံသံဖျောက်ခြင်း</string>
+    <string name="clear_calling_toggle">ဖုန်းဆူညံသံဖျောက်ခြင်း သုံးရန်</string>
+    <string name="clear_calling_topintro">ဖုန်းပြောနေစဉ် နောက်ခံဆူညံသံများ လျှော့ချပေးသည်</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">မေးမြန်းချက် ဖယ်ရှားရန်</string>
+    <string name="language_picker_page">ဘာသာစကား ရွေးချယ်စနစ် စာမျက်နှာ</string>
+    <string name="search_region">ဒေသများ ရှာရန်</string>
+    <string name="search_region_page">ဒေသရှာဖွေသည့် စာမျက်နှာ</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">‘အလိုက်အထိုက် ဘက်ထရီအားထိန်း’ သုံးရန်</string>
+    <string name="basic_battery_saver_title">ပုံမှန် ဘက်ထရီအားထိန်း</string>
+    <string name="basic_battery_saver_summary">ပြသမှုဆိုင်ရာ အထူးပြုလုပ်ချက်၊ နောက်ခံလုပ်ဆောင်ချက်တို့ကို ကန့်သတ်သည်။ အမှောင်အပြင်အဆင် မဖွင့်ရသေးပါက ဖွင့်ပေးသည်။</string>
+    <string name="battery_saver_reminder_category">သတိပေးချက်များ</string>
+    <string name="battery_saver_reminder_switch_title">ဘက်ထရီအားထိန်း သတိပေးချက်</string>
+    <string name="battery_saver_reminder_switch_summary">ဘက်ထရီအားနည်းသောအခါ သတိပေးချက်ရယူရန်</string>
+    <string name="battery_saver_schedule_category">အချိန်ဇယား</string>
+    <string name="battery_saver_schedule_switch_title">ဘက်ထရီပမာဏပေါ် အခြေခံ၍ ဖွင့်ရန်</string>
+    <string name="battery_saver_schedule_switch_summary">ဘက်ထရီသည် သင်သတ်မှတ်ထားသည့် ပမာဏသို့ ကျရောက်သွားသောအခါ ‘ဘက်ထရီ အားထိန်း’ ကို ဖွင့်သည်</string>
+    <string name="battery_schedule_title">အချိန်ဇယားနှင့် သတိပေးချက်များ</string>
+    <string name="battery_schedule_summary">‘ဘက်ထရီအားထိန်း’ ဖွင့်ချိန်ကို စီမံပါ</string>
+    <string name="extreme_battery_saver_title">လွန်ကဲ ဘက်ထရီအားထိန်း</string>
+    <string name="extreme_battery_saver_summary">အထက်ဖော်ပြပါ အပြောင်းအလဲအားလုံး ပါဝင်သည်။ မရှိမဖြစ်မဟုတ်သည့် အက်ပ်များနှင့် ၎င်းတို့၏ အကြောင်းကြားချက်များကိုလည်း ခဏရပ်ပေးသည်။</string>
+    <string name="unified_battery_saver_page_intro">ဖုန်းဘက်ထရီ ကြာရှည်အားခံစေရန် အားသွင်းမှုများကြား ပါဝါကို ချွေတာပေးသည်</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

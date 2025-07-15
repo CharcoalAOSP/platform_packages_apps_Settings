@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">আপোনাৰ গোপনীয়তা সুৰক্ষিত কৰিবলৈ, স্পষ্ট কলিঙে Googleলৈ অডিঅ’ অথবা বাৰ্তালাপ প্ৰেৰণ নকৰে।\n\nস্পষ্ট কলিঙে ৱাই-ফাই কলিং আৰু বেছিভাগ ম’বাইল নেটৱৰ্কত কাম কৰে, ই 3G নেটৱৰ্কৰ বাবে উপলব্ধ নহয়।</string>
+    <string name="clear_calling_title">স্পষ্ট কলিং</string>
+    <string name="clear_calling_toggle">স্পষ্ট কলিং ব্যৱহাৰ কৰক</string>
+    <string name="clear_calling_topintro">কল চলি থকাৰ সময়ত নেপথ্যৰ কোলাহল হ্ৰাস কৰে</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">প্ৰশ্ন মচক</string>
+    <string name="language_picker_page">ভাষা বাছনিকৰ্তাৰ পৃষ্ঠা</string>
+    <string name="search_region">অঞ্চল সন্ধান কৰক</string>
+    <string name="search_region_page">অঞ্চল সন্ধান কৰাৰ পৃষ্ঠা</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">অভিযোজিত বেটাৰী ব্যৱহাৰ কৰক</string>
+    <string name="basic_battery_saver_title">মানক বেটাৰী সঞ্চয়কাৰী</string>
+    <string name="basic_battery_saver_summary">ভিজুৱেল ইফেক্ট আৰু পৃষ্ঠভূমিৰ কাৰ্যকলাপ সীমিত কৰে। ইতিমধ্যে অন কৰি থোৱা নাথাকিলে গাঢ় ৰঙৰ থীম অন কৰে।</string>
+    <string name="battery_saver_reminder_category">ৰিমাইণ্ডাৰ</string>
+    <string name="battery_saver_reminder_switch_title">বেটাৰী সঞ্চয়কাৰীৰ ৰিমাইণ্ডাৰ</string>
+    <string name="battery_saver_reminder_switch_summary">বেটাৰীৰ চাৰ্জ কমিলে ৰিমাইণ্ডাৰ পাওক</string>
+    <string name="battery_saver_schedule_category">সময়সূচী</string>
+    <string name="battery_saver_schedule_switch_title">বেটাৰীৰ চাৰ্জৰ ওপৰত ভিত্তি কৰি অন হয়</string>
+    <string name="battery_saver_schedule_switch_summary">বেটাৰীৰ চাৰ্জ কমি আপুনি ছেট কৰা সীমা চুলে বেটাৰী সঞ্চয়কাৰী অন হয়</string>
+    <string name="battery_schedule_title">সময়সূচী আৰু ৰিমাইণ্ডাৰ</string>
+    <string name="battery_schedule_summary">বেটাৰী সঞ্চয়কাৰী কেতিয়া অন হ’ব লাগে সেয়া পৰিচালনা কৰক</string>
+    <string name="extreme_battery_saver_title">চৰম বেটাৰী সঞ্চয়কাৰী</string>
+    <string name="extreme_battery_saver_summary">ওপৰত সূচীবদ্ধ কৰা আটাইবোৰ সালসলনি অন্তৰ্ভুক্ত কৰে। অত্যাৱশ্যকীয় নোহোৱা এপ্‌ আৰু সেইবোৰৰ জাননীও পজ কৰে।</string>
+    <string name="unified_battery_saver_page_intro">চাৰ্জ দিয়াৰ সময়ৰ মাজৰ সময়খিনিত ফ’নৰ বেটাৰীৰ চাৰ্জ অধিক সময় থকাত সহায় কৰিবলৈ পাৱাৰ ৰাহি কৰক</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Pentru a-ți proteja confidențialitatea, Apelarea cu sunet clar nu trimite niciodată conținut audio sau conversații la Google.\n\nApelarea cu sunet clar este disponibilă în Apelarea prin Wi‑Fi și în majoritatea rețelelor, însă nu și în rețelele 3G.</string>
+    <string name="clear_calling_title">Apelare cu sunet clar</string>
+    <string name="clear_calling_toggle">Folosește apelarea cu sunet clar</string>
+    <string name="clear_calling_topintro">Reduce zgomotele de fundal în timpul apelurilor</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Șterge interogarea</string>
+    <string name="language_picker_page">Pagina selectorului de limbă</string>
+    <string name="search_region">Caută regiuni</string>
+    <string name="search_region_page">Pagina regiunilor de căutare</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Folosește Baterie adaptabilă</string>
+    <string name="basic_battery_saver_title">Economisirea bateriei standard</string>
+    <string name="basic_battery_saver_summary">Limitează efectele vizuale și activitatea din fundal. Activează Tema întunecată dacă nu este deja activată.</string>
+    <string name="battery_saver_reminder_category">Mementouri</string>
+    <string name="battery_saver_reminder_switch_title">Mementouri Economisirea bateriei</string>
+    <string name="battery_saver_reminder_switch_summary">Primește mementouri când se descarcă bateria</string>
+    <string name="battery_saver_schedule_category">Program</string>
+    <string name="battery_saver_schedule_switch_title">Activează în funcție de nivelul bateriei</string>
+    <string name="battery_saver_schedule_switch_summary">Economisirea bateriei se activează când bateria scade la nivelul pe care l-ai stabilit</string>
+    <string name="battery_schedule_title">Program și mementouri</string>
+    <string name="battery_schedule_summary">Stabilește când va porni Economisirea bateriei</string>
+    <string name="extreme_battery_saver_title">Economisirea extremă a bateriei</string>
+    <string name="extreme_battery_saver_summary">Include toate modificările menționate mai sus. Întrerupe și aplicațiile neesențiale și notificările aferente.</string>
+    <string name="unified_battery_saver_page_intro">Economisește energie pentru ca bateria telefonului să dureze mai mult între încărcări</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

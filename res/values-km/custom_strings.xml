@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">ដើម្បីការពារភាពឯកជនរបស់អ្នក សំឡេងឮច្បាស់មិនផ្ញើសំឡេង ឬការសន្ទនាទៅ Google ទេ។\n\nសំឡេងឮច្បាស់ដំណើរការនៅលើការហៅតាម Wi-Fi និងបណ្តាញភាគច្រើន មិនមានសម្រាប់បណ្តាញ 3G ទេ។</string>
+    <string name="clear_calling_title">ការហៅដែលមានសំឡេងច្បាស់</string>
+    <string name="clear_calling_toggle">ប្រើ​ការហៅដែលមានសំឡេងច្បាស់</string>
+    <string name="clear_calling_topintro">កាត់បន្ថយ​សំឡេងរំខាន​នៅផ្ទៃខាងក្រោយ ក្នុងអំឡុងពេល​ហៅទូរសព្ទ</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">សម្អាត​សំណួរ</string>
+    <string name="language_picker_page">ទំព័រ​កម្មវិធី​ជ្រើសរើស​ភាសា</string>
+    <string name="search_region">ស្វែងរកតំបន់</string>
+    <string name="search_region_page">ទំព័រស្វែងរកតំបន់</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">ប្រើមុខងារ​ថ្ម​មាន​ភាព​បត់បែន</string>
+    <string name="basic_battery_saver_title">មុខងារ​សន្សំ​ថ្មស្តង់ដា</string>
+    <string name="basic_battery_saver_summary">ដាក់កំហិតលើ​បែបផែនរូបភាព និងសកម្មភាពនៅផ្ទៃខាងក្រោយ។ បើកទម្រង់រចនាងងឹត ប្រសិនបើមិនទាន់បើក។</string>
+    <string name="battery_saver_reminder_category">ការរំលឹក</string>
+    <string name="battery_saver_reminder_switch_title">ការរំលឹកពី​មុខងារសន្សំថ្ម</string>
+    <string name="battery_saver_reminder_switch_summary">ទទួលការរំលឹក នៅពេលថ្មនៅសល់តិច</string>
+    <string name="battery_saver_schedule_category">កាលវិភាគ</string>
+    <string name="battery_saver_schedule_switch_title">បើកដោយផ្អែកលើកម្រិតថ្ម</string>
+    <string name="battery_saver_schedule_switch_summary">មុខងារ​សន្សំ​ថ្មបើក នៅពេលថ្មធ្លាក់ដល់កម្រិតដែលអ្នកបានកំណត់</string>
+    <string name="battery_schedule_title">កាលវិភាគ និងការរំលឹក</string>
+    <string name="battery_schedule_summary">គ្រប់គ្រង ពេលដែលត្រូវបើកមុខងារសន្សំថ្ម</string>
+    <string name="extreme_battery_saver_title">មុខងារសន្សំថ្មខ្លាំង</string>
+    <string name="extreme_battery_saver_summary">រួមបញ្ចូលការផ្លាស់ប្ដូរទាំងអស់ដែលបង្ហាញខាងលើ។ ផ្អាក​កម្មវិធីមិនចាំបាច់ និងការជូនដំណឹង​របស់កម្មវិធីទាំងនោះ​ផងដែរ។</string>
+    <string name="unified_battery_saver_page_intro">សន្សំសំចៃថាមពល ដើម្បីជួយឱ្យថ្មទូរសព្ទរបស់អ្នកប្រើបានកាន់តែយូរក្រោយពេលសាកថ្មរួចម្ដងៗ</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)

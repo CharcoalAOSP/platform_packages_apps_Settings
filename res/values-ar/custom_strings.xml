@@ -1,0 +1,33 @@
+<<<<<<< PATCH SET (57a7e6f81b376384cba9f450b9ae687575c915b9 Settings: Implement reverse-engineered battery saver page)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">‏لحماية خصوصيتك، لا يتم إرسال المحتوى الصوتي أو المحادثات إلى Google من خلال ميزة \"تحسين جودة المكالمات\".\n\nتعمل ميزة \"تحسين جودة المكالمات\" من خلال الاتصال عبر Wi-Fi ومعظم الشبكات، ولا تتوفّر لشبكات الجيل الثالث.</string>
+    <string name="clear_calling_title">تنقية الصوت</string>
+    <string name="clear_calling_toggle">استخدام ميزة \"تحسين جودة المكالمات\"</string>
+    <string name="clear_calling_topintro">يقلل هذا الإعداد التشويش في الخلفية أثناء المكالمات</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">محو طلب البحث</string>
+    <string name="language_picker_page">صفحة أداة اختيار اللغة</string>
+    <string name="search_region">البحث عن المناطق</string>
+    <string name="search_region_page">صفحة البحث عن المنطقة</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">استخدام ميزة \"البطارية التكيُّفية\"</string>
+    <string name="basic_battery_saver_title">توفير البطارية العادي</string>
+    <string name="basic_battery_saver_summary">يحدّ هذا الخيار من المؤثرات البصرية والأنشطة في الخلفية ويُفعِّل \"المظهر الداكن\" في حال لم يكُن مفعَّلاً.</string>
+    <string name="battery_saver_reminder_category">التذكيرات</string>
+    <string name="battery_saver_reminder_switch_title">تذكيرات ميزة \"توفير شحن البطارية\"</string>
+    <string name="battery_saver_reminder_switch_summary">يمكنك تلقّي تذكيرات عند انخفاض شحن البطارية</string>
+    <string name="battery_saver_schedule_category">الجدولة</string>
+    <string name="battery_saver_schedule_switch_title">التفعيل بناءً على مستوى البطارية</string>
+    <string name="battery_saver_schedule_switch_summary">يتم تفعيل وضع \"توفير شحن البطارية\" عندما ينخفض شحن البطارية إلى المستوى الذي تحدّده</string>
+    <string name="battery_schedule_title">الجدول الزمني والتذكيرات</string>
+    <string name="battery_schedule_summary">يمكنك إدارة الحالات التي يتم فيها تفعيل ميزة \"توفير شحن البطارية\"</string>
+    <string name="extreme_battery_saver_title">توفير شحن البطارية العالي</string>
+    <string name="extreme_battery_saver_summary">يشمل جميع التغييرات المذكورة أعلاه. ويتم أيضًا إيقاف التطبيقات غير الأساسية وإشعاراتها مؤقتًا.</string>
+    <string name="unified_battery_saver_page_intro">وفِّر الطاقة لكي تدوم البطارية لفترة أطول بين كل عملية شحن وأخرى</string>
+</resources>
+=======
+>>>>>>> BASE      (6343fd6e4346eea67a05bd926919979f16446a66 Hide unavailable battery info)
