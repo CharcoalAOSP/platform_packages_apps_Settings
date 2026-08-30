@@ -1,0 +1,181 @@
+<<<<<<< PATCH SET (3dd77e076dfe10ce9e91ffa2276c48b4fb677063 Settings: Implement Simple View accessibility option)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Məxfiliyi qorumaq üçün Təmiz səsli zəng audio və ya söhbətləri Google-a göndərmir.\n\nTəmiz səsli zəng Wi-Fi zəngi və əksər şəbəkələrdə işləyir. 3G şəbəkələri üçün əlçatan deyil.</string>
+    <string name="clear_calling_title">Zəng Aydınlaşdırma</string>
+    <string name="clear_calling_toggle">Zəng Aydınlaşdırma xidmətindən istifadə edin</string>
+    <string name="clear_calling_topintro">Zəng zamanı arxa fondakı səs-küyü azaldır</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Sorğunu təmizləyin</string>
+    <string name="language_picker_page">Dil seçici səhifə</string>
+    <string name="search_region">Bölgələri axtarın</string>
+    <string name="search_region_page">Region axtarış səhifəsi</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Adaptiv Batareyadan istifadə edin</string>
+    <string name="basic_battery_saver_title">Standart Enerjiyə Qənaət</string>
+    <string name="basic_battery_saver_summary">Vizual effekt və arxa fon fəaliyyətinə limit qoyur. Artıq aktiv deyilsə, tünd temanı aktivləşdirir.</string>
+    <string name="battery_saver_reminder_category">Xatırladıcılar</string>
+    <string name="battery_saver_reminder_switch_title">Enerjiyə Qənaət xatırlatmaları</string>
+    <string name="battery_saver_reminder_switch_summary">Enerji az olduqda xatırlatmalar alın</string>
+    <string name="battery_saver_schedule_category">Cədvəl</string>
+    <string name="battery_saver_schedule_switch_title">Batareya səviyyəsinə əsasən aktiv edin</string>
+    <string name="battery_saver_schedule_switch_summary">Batareya ayarladığınız səviyyəyə düşdükdə Enerjiyə Qənaət aktiv olur</string>
+    <string name="battery_schedule_title">Cədvəl və xatırladıcılar</string>
+    <string name="battery_schedule_summary">Enerjiyə Qənaətin nə zaman aktiv olmasını idarə edin</string>
+    <string name="extreme_battery_saver_title">Yüksək Enerji Qənaəti</string>
+    <string name="extreme_battery_saver_summary">Yuxarıdakı bütün dəyişikliklər daxildir. Əsas olmayan tətbiqlərə və onların bildirişlərinə də pauza verir.</string>
+    <string name="unified_battery_saver_page_intro">Telefon enerjisinin uzun müddət davam etməsi üçün enerjiyə qənaət edin</string>
+
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Güncəllənmələri yoxlayın</string>
+    <string name="play_application_update_entry_title">Tətbiq güncəllənmələri</string>
+    <string name="software_update_banner_checking">Güncəlləmə yoxlanılır…</string>
+    <string name="software_update_banner_up_to_date">Cihazınız güncəldir</string>
+    <string name="software_update_banner_update_available">Güncəlləmələr əlçatandır</string>
+    <string name="software_update_can_be_updated_header">Pixel-nizi daha da yaxşı edin</string>
+    <string name="software_update_entry_title">Proqram təminatı güncəllənməsi</string>
+    <string name="software_update_pending_update_summary">Güncəllənməyi gözləyir</string>
+    <string name="software_update_up_to_date_header">Pixel güncəldir</string>
+    <string name="software_update_up_to_specific_date_summary">Güncəlləndi: %1$s</string>
+    <string name="system_update_entry_title">Sistem güncəllənməsi</string>
+
+    <!-- Advanced VPN -->
+    <string name="advanced_vpn_preference_group_title">Daxilə quraşdırılmış</string>
+    <string name="vpn_preference_group_title">Digərləri</string>
+
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">animasiyanı durdurun</string>
+
+    <!-- Repair Mode -->
+    <string name="repair_mode_title">Təmir rejimi</string>
+    <string name="repair_mode_summary">Cihaz təmiri üçün təhlükəsiz mühit</string>
+    <string name="repair_mode_active_summary">Təmir rejimində</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_safety_issue_add_more_action_title">Daha çoxunu əlavə edin</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_subtitle">Daha rahat kiliddən çıxarmaq üçün daha çox barmaq izi əlavə edin</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_title">Daha çox barmaq izi əlavə edin</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_title_for_work">İş üçün daha çox barmaq izi əlavə edin</string>
+    <string name="biometric_safety_issue_setup_action_title">Ayarlayın</string>
+    <string name="biometric_safety_issue_setup_face_unlock_subtitle">Daha rahat kiliddən çıxarmaq üçün Barmaqla Kiliddən Açma ilə yanaşı Üz ilə Kiliddən Açma funksiyasından da istifadə edin</string>
+    <string name="biometric_safety_issue_setup_face_unlock_title">Üz ilə Kiliddən Açmanı ayarlayın</string>
+    <string name="biometric_safety_issue_setup_face_unlock_title_for_work">İş üçün Üz ilə Kiliddən Açmanı ayarlayın</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_subtitle">Daha rahat kiliddən çıxarmaq üçün həm Barmaq izi, həm də Üz ilə Kiliddən Açmanı ayarlayın</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_title">Barmaq izi və Üz ilə Kiliddən Açmanı ayarlayın</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_title_for_work">İş profili üçün Barmaq İzi və Üz ilə Kiliddən Açmanı ayarlayın</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_subtitle">Daha rahat kiliddən çıxarmaq üçün Üz ilə Kiliddən Açma ilə yanaşı Barmaqla Kiliddən Açma funksiyasından da istifadə edin</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_title">Barmaqla Kiliddən Açmanı ayarlayın</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_title_for_work">İş üçün Barmaqla Kiliddən Açma ayarlayın</string>
+    <string name="delete_all_fps_dialog_cancel_button">İndi yox</string>
+    <string name="delete_all_fps_dialog_delete_button">İndi ayarlayın</string>
+    <string name="delete_all_fps_dialog_msg">Bununla bütün cari barmaq izləriniz silinəcək və Barmaqla Kiliddən Açma yenidən ayarlanana qədər barmaq iziniz ilə telefonu kiliddən çıxara və ya kimliyinizi doğrulaya bilməyəcəksiniz.</string>
+    <string name="delete_all_fps_dialog_title">Barmaqla Kiliddən Açma ayarlansın?</string>
+    <string name="face_confirmation_hide_illustration_description">İndi telefonu götürəndə və ya ekrana toxunduqda kilidi açmaq üçün üzünüzdən istifadə edə bilərsiniz.</string>
+    <string name="face_confirmation_info_enough_light">Üz ilə Kiliddən Açma kifayət qədər işıq olduqda və maska və ya tündrəngli eynək taxmadığınız zaman yaxşı işləyir.</string>
+    <string name="face_confirmation_info_outside_screen">Üz ilə Kiliddən Açma yalnız xarici ekranda işləyir</string>
+    <string name="face_enroll_finish_subtitle">İndi telefonu götürəndə və ya ekrana toxunanda kilidi açmaq üçün üzünüzdən istifadə edə bilərsiniz.\n\nÜz ilə Kiliddən Açma kifayət qədər işıq olduqda və maska və ya tündrəngli eynək taxmadığınız zaman yaxşı işləyir.</string>
+    <string name="face_enrolling_center_head">Üzünüzü iç çərçivəyə yerləşdirin</string>
+    <string name="face_enrolling_close_to_continue">Ayarlama zamanı telefonu qatlayın</string>
+    <string name="face_enrolling_close_to_continue_description">Üz ilə Kiliddən Açmanı ayarlamaq və ya ondan istifadə etmək üçün cihaz qatlanmalıdır</string>
+    <string name="face_enrolling_do_it_later">Sonraya saxlayın</string>
+    <string name="face_enrolling_gaze_dialog_cancel">Ləğv edin</string>
+    <string name="face_enrolling_gaze_dialog_continue">Gözlərinizi açmadan ayarlayın</string>
+    <string name="face_enrolling_gaze_dialog_message">Üz ilə Kiliddən Açmanı gözləriniz bağlı halda ayarlamaq istəyirsiniz? Belə ayarlasanız, xəbəriniz olmadığı vaxt kimsə telefonu üzünüzə tutaraq kilidi aça bilər.</string>
+    <string name="face_enrolling_gaze_dialog_title">Gözlərinizi açmadan ayarlayın</string>
+    <string name="face_enrolling_title">Telefonu tərpətməyin. Başınızı fırladın. Yavaş hərəkət edin.</string>
+    <string name="face_enrolling_title_accessibility">Birbaşa telefona baxın</string>
+    <string name="face_enrolling_too_close">Telefonu uzaqlaşdırın</string>
+    <string name="face_enrolling_too_far">Telefonu yaxınlaşdırın</string>
+    <string name="face_enrolling_too_high">Telefonu aşağı hərəkət etdirin</string>
+    <string name="face_enrolling_too_left">Telefonu sağa hərəkət etdirin</string>
+    <string name="face_enrolling_too_low">Telefonu yuxarı hərəkət etdirin</string>
+    <string name="face_enrolling_too_right">Telefonu sola hərəkət etdirin</string>
+    <string name="face_enrolling_turn_head_to_arrow">Başınızı oxa doğru çevirin</string>
+    <string name="face_enrolling_turned_too_far">Başınızı biraz döndərin</string>
+    <string name="fingerprint_enroll_finish_footer_button_add">Başqa barmaq izi əlavə edin</string>
+    <string name="fingerprint_enroll_finish_subtitle_one_fingerprint_enrolled">Barmaq izi ilə telefonu kiliddən çıxara və ya kimliyinizi doğrulaya bilərsiniz. Rahatlıq üçün başqa barmaq izi əlavə edə bilərsiniz.</string>
+    <string name="fingerprint_enroll_finish_subtitle_three_and_more_fingerprints_enrolled">Barmaqla Kiliddən Açmadan nə qədər çox istifadə etsəniz, o qədər təkmilləşir. Hətta daha çox barmaq izi əlavə edə bilərsiniz.</string>
+    <string name="fingerprint_enroll_finish_subtitle_two_fingerprints_enrolled">Barmaqla Kiliddən Açmadan nə qədər çox istifadə etsəniz, o qədər təkmilləşir. Rahatlıq üçün başqa barmaq izləri də əlavə edə bilərsiniz.</string>
+    <string name="fingerprint_enroll_finish_title">Qaydasındadır!</string>
+    <string name="fingerprint_enroll_finish_title_one_fingerprint_enrolled">1 barmaq izi əlavə edildi</string>
+    <string name="fingerprint_udfps_enroll_find_sensor_description">Barmaq izi sensoru növbəti ekranda olacaq. Rahatlıq üçün hər əlinizdə ən azı 1 barmağınızı ayarlayın.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Zolaq, ləkə və ya izləri təmizləmək üçün ekranı silin. Bu, daha aydın barmaq izi təsvirləri çəkməyə kömək edir.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Davam etməzdən əvvəl ekranı təmizləyin</string>
+    <string name="frr_notification_button_got_it">Anladım</string>
+    <string name="frr_notification_description">Ən yaxşı performans üçün bu məsləhətlərə əməl edin:</string>
+    <string name="frr_notification_learn_more">&lt;a href=\'http://g.co/pixel/screenprotector\'&gt;Ətraflı məlumat&lt;/a&gt;</string>
+    <string name="frr_notification_non_mfg_sp_description">\"Google üçün hazırlanıb\" sertifikatlı ekran qoruyucusundan istifadə edin. Digər ekran qoruyucuları sensora müdaxilə edə və onun düzgün işləməsinə mane ola bilər.</string>
+    <string name="frr_notification_non_mfg_sp_title">Sertifikatlı ekran qoruyucusundan istifadə edin</string>
+    <string name="frr_notification_reset_fingerprint_button">Barmaqla Kiliddən Açmanı silin və ayarlayın</string>
+    <string name="frr_notification_reset_fingerprint_description">Bu, bəzən problemləri həll edə bilər, xüsusən də bu yaxınlarda ekran qoruyucusu əlavə etmisinizsə və ya çıxarmısınızsa</string>
+    <string name="frr_notification_reset_fingerprint_title">Barmaqla Kiliddən Açmanı yenidən ayarlayın</string>
+    <string name="frr_notification_screen_protector_description">Bu, barmaq izinin tanınmasına təsir edə bilər. \"Google üçün hazırlanıb\" sertifikatlı ekran qoruyucusundan istifadə edin. Digər ekran qoruyucuları sensora müdaxilə edə və onun düzgün işləməsinə mane ola bilər.</string>
+    <string name="frr_notification_screen_protector_title">Ekran qoruyucusundan istifadə edirsinizsə...</string>
+    <string name="frr_notification_set_face_unlock_description">Məsələn, barmaqlarınız yaş olduğu üçün barmaq izi tanınmadıqda Üz ilə Kiliddən Açma funksiyasından istifadə edin</string>
+    <string name="frr_notification_set_face_unlock_title">Üz ilə Kiliddən Açma funksiyasını ayarlayın</string>
+    <string name="frr_notification_title">Barmaqla Kiliddən Açma ilə bağlı problem var?</string>
+    <string name="security_settings_face_enroll_consent_message">Övladınızın telefonunun kilidini açmaq və ya tətbiqlərdə kimliyini doğrulamaq üçün üz tanıma funksiyasından istifadə edin</string>
+    <string name="security_settings_face_enroll_consent_secure_and_helpful_message_1">Övladınızın üzü yalnız cihazda saxlanılır və Google-a göndərilmir</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">İndi telefonu götürəndə və ya ekrana toxunduqda kilidi açmaq üçün üzünüzdən istifadə edə bilərsiniz.\n\nÜzlə Kiliddən Açma kifayət qədər işıq olduqda və maska və ya tünd eynək taxmadığınız zaman yaxşı işləyir.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp_folded">Telefonu götürəndə və ya ekrana toxunduqda üzünüzlə kilidi aça bilərsiniz. Üz ilə Kiliddən Açmadan istifadə etmək üçün telefon qatlanmalıdır.\n\nKifayət qədər işıq olduqda, maska və ya tündrəngli eynək taxmadıqda Üz ilə Kiliddən Açma mükəmməl işləyir.</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message_1">Siz və övladınız ayarlarda istənilən vaxt üz modelini silə, yaxud Üz ilə Kiliddən Açma funksiyasını deaktiv edə bilərsiniz. Üz modelləri silinənə qədər telefonda dayandırılır.</string>
+    <string name="security_settings_face_enroll_introduction_control_message_2">Ayarlarda istənilən vaxt üz modelinizi silə, yaxud Üz ilə Kiliddən Açmanı deaktiv edə bilərsiniz. Üz modelləri siz onları silənə qədər telefonunuzda saxlanılır.</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message_1">Üz ilə Kiliddən Açma funksiyası övladınızı doğrulamaq üçün üzünün unikal modelini yaradır. Ayarlama zamanı bu üz modelini yaratmaq üçün övladınız müxtəlif bucaqlardan üzünün şəkillərini çəkəcək.\n\nÜz ilə Kiliddən Açma funksiyasından istifadə etdikdə onun üz modelini güncəlləmək üçün şəkillərdən istifadə olunur. Üz modelini yaratmaq üçün istifadə edilən şəkillər heç vaxt saxlanılmır, lakin üz modeli telefonda təhlükəsiz qaydada dayandırılır və heç vaxt telefondan başqa yerə göndərilmir. Bütün emal prosesi telefonda təhlükəsiz qaydada baş verir.</string>
+    <string name="security_settings_face_enroll_introduction_learn_more_message">Ətraflı məlumat: &lt;a href=\'http://g.co/pixel/faceunlock\'&gt;g.co/pixel/faceunlock&lt;/a&gt;</string>
+    <string name="security_settings_face_enroll_introduction_message_class3_2">Telefonunuzun kilidini açmaq və ya tətbiqlərdə kimliyinizi doğrulamaq üçün üzünüzdən istifadə edin</string>
+    <string name="security_settings_face_enroll_introduction_secure_and_helpful_message_1">Üzünüz yalnız cihazda saxlanılır və Google-a göndərilmir</string>
+    <string name="security_settings_face_enroll_introduction_secure_and_helpful_message_2">Ən yaxşı təcrübə üçün Barmaqla Kiliddən Açma ilə birlikdə Üz ilə Kiliddən Açma funksiyasını ayarlayın</string>
+    <string name="security_settings_face_enroll_next">Növbəti</string>
+    <string name="security_settings_face_enroll_partial_message">Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə Kiliddən Açmanı yenidən ayarlaya bilərsiniz</string>
+    <string name="security_settings_face_enroll_partial_start_over">Yenidən başlayın</string>
+    <string name="security_settings_face_enroll_partial_title">Üz ilə Kiliddən Açmanın ayarlanması tamamlandı</string>
+    <string name="security_settings_face_enroll_timeout_message">Əvəzində Sürətli Ayarlamanı sınayın. Üz ilə Kiliddən Açmadan istifadə etdikdə başınızı telefonun qarşısında sabit saxlamalısınız.\n\nPerformansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə Kiliddən Açmanı yenidən ayarlaya bilərsiniz.</string>
+    <string name="security_settings_face_enroll_timeout_title">Quraşdırmanı davam etdirmək mümkün deyil</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Yenidən cəhd edin</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Sürətli quraşdırma istifadəsi</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Quraşdırmadan çıxın</string>
+    <string name="security_settings_face_enroll_too_hot_message">Telefon çox qızdığına görə Üz ilə Kiliddən Açmanın ayarlanması tamamlanmadı. Telefon soyuduqdan sonra yenidən cəhd edin.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Üz ilə Kiliddən Açmanı ötürün</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefon çox qızıb</string>
+    <string name="security_settings_fingerprint_enroll_consent_message">Övladınızın telefonunu açmaq və ya tətbiqlərdə kimliyini doğrulamaq üçün barmaq izindən istifadə edin</string>
+    <string name="security_settings_fingerprint_enroll_consent_secure_and_helpful_message_1">Övladınızın barmaq izləri yalnız cihazda saxlanılır və Google-a göndərilmir</string>
+    <string name="security_settings_fingerprint_enroll_introduction_footer_title_3">Təhlükəsiz və faydalı</string>
+    <string name="security_settings_fingerprint_enroll_introduction_v3_message_2">Telefonunuzun kilidini açmaq və ya tətbiqlərdə kimliyinizi doğrulamaq üçün barmaq izindən istifadə edin</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay" />
+    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6_2">Ekran qoruyucunuz varsa, mükəmməl performans üçün barmaq izi quraşdırmazdan əvvəl onu tətbiq edin.\n\nMükəmməl nəticə üçün \"Google üçün hazırlanıb\" sertifikatlı ekran qoruyucusu istifadə edin. Digər ekran qoruyucuları ilə barmaq iziniz işləməyə bilər.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_7">Barmaq izləriniz yalnız cihazda saxlanılır və heç vaxt Google-a göndərilmir</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_8">Ən yaxşı təcrübə üçün 2 və ya daha çox barmaq izi əlavə edin və Üz ilə Kiliddən Açma funksiyasını ayarlayın</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more_2">Ətraflı məlumat: &lt;a href=\'http://g.co/pixel/fingerprintunlock\'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay" />
+    <string name="security_settings_udfps_enroll_start_message_new">Vibrasiya hiss edənə qədər barmağınızı sensorun üzərində düz saxlayın. Eyni anda yalnız 1 barmaq ayarlayın.</string>
+    <string name="security_settings_udfps_enroll_start_message_without_haptic">Gedişat zolağı dolana qədər barmağınızı sensorun üzərində düz saxlayın. Eyni anda yalnız bir barmaq ayarlayın.</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue" />
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle" />
+    <string name="setup_fingerprint_enroll_immobile_help_title" />
+
+    <!-- Simple mode / Simple view -->
+    <string name="simple_mode_category">Sürətli Giriş</string>
+    <string name="simple_mode_description">Mətn və ikona ölçüsünü böyüdün, düzəni sadələşdirin və naviqasiya düymələri əlavə edin. LINK_BEGINSadə baxış haqqında ətraflı məlumat.LINK_END</string>
+    <string name="simple_mode_off_summary">Deaktiv/Ekran düzənini sadələşdirin və mətnin oxunmasını asanlaşdırın</string>
+    <string name="simple_mode_on_summary">Aktiv/Ekran düzənini sadələşdirin və mətnin oxunmasını asanlaşdırın</string>
+    <string name="simple_mode_summary">Mətn oxunuşunu təkmilləşdirin, ekran düzəni və naviqasiyanı sadələşdirin</string>
+    <string name="simple_mode_suw_description">Təmiz dizayn və sadə quraşdırma üçün Pixel əsas tətbiq və vidcetləri avtomatik endirə, ekran düzənini optimallaşdıra, şrifti tənzimləyə və s. edə bilər</string>
+    <string name="simple_mode_suw_done_button">Hazırdır</string>
+    <string name="simple_mode_switch_title">Sadə Baxışdan istifadə edin</string>
+    <string name="simple_mode_title">Sadə Baxış</string>
+    <string name="simple_view_dialog_negative_button">Ləğv edin</string>
+    <string name="simple_view_dialog_positive_button">Davam edin</string>
+    <string name="simple_view_feature_disabled_dialog_message">Sadə baxışı söndürdükdə cihaz orijinal şrift, displey və düzən ayarlarına qayıdacaq. Bu fərdi şrift ayarlarını dəyişmək haqqında məlumat əldə edin.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Cihaz əvvəlki ayarlara qayıdacaq</string>
+    <string name="simple_view_feature_enabled_dialog_message">Cari şrift Sadə Baxış ayarlarından böyükdür. Sadə Baxışdan istifadə etdikdə şrift ölçüsü kiçildiləcək.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Şrift ölçüsü kiçildiləcək</string>
+</resources>
+=======
+>>>>>>> BASE      (ccd967e64acab8f54fc30cc2420664fc8ac8d5c2 Settings: Use expressive theme for gaze toggle)

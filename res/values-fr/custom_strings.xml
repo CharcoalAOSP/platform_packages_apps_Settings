@@ -1,0 +1,181 @@
+<<<<<<< PATCH SET (3dd77e076dfe10ce9e91ffa2276c48b4fb677063 Settings: Implement Simple View accessibility option)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Pour protéger votre confidentialité, la Clarté du son de l\'interlocuteur n\'envoie pas de données audio ni de conversations à Google.\n\nCette fonctionnalité est compatible avec les appels Wi-Fi et la plupart des réseaux. Elle n\'est pas disponible pour les réseaux 3G.</string>
+    <string name="clear_calling_title">Clarté son de l\'interlocuteur</string>
+    <string name="clear_calling_toggle">Utiliser la Clarté du son de l\'interlocuteur</string>
+    <string name="clear_calling_topintro">Réduit les bruits de fond lors des appels</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Effacer la requête</string>
+    <string name="language_picker_page">Page de l\'outil de sélection de langue</string>
+    <string name="search_region">Rechercher des régions</string>
+    <string name="search_region_page">Page \"Rechercher une région\"</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Utiliser la batterie adaptative</string>
+    <string name="basic_battery_saver_title">Économiseur de batterie standard</string>
+    <string name="basic_battery_saver_summary">Limite les effets visuels et l\'activité en arrière-plan. Active le thème sombre, si ce n\'est pas déjà fait.</string>
+    <string name="battery_saver_reminder_category">Rappels</string>
+    <string name="battery_saver_reminder_switch_title">Rappels de l\'économiseur de batterie</string>
+    <string name="battery_saver_reminder_switch_summary">Recevez des rappels lorsque la batterie est faible</string>
+    <string name="battery_saver_schedule_category">Programmation</string>
+    <string name="battery_saver_schedule_switch_title">Activer selon le niveau de batterie</string>
+    <string name="battery_saver_schedule_switch_summary">L\'économiseur de batterie est activé lorsque la batterie descend à un niveau que vous avez défini</string>
+    <string name="battery_schedule_title">Programmation et rappels</string>
+    <string name="battery_schedule_summary">Gérer quand l\'économiseur de batterie s\'active</string>
+    <string name="extreme_battery_saver_title">Ultra économiseur de batterie</string>
+    <string name="extreme_battery_saver_summary">Applique tous les changements ci-dessus. Suspend aussi les applis non essentielles et leurs notifications.</string>
+    <string name="unified_battery_saver_page_intro">Économisez l\'énergie pour aider à prolonger l\'autonomie de la batterie entre les recharges</string>
+
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Rechercher des mises à jour</string>
+    <string name="play_application_update_entry_title">Mises à jour d\'applications</string>
+    <string name="software_update_banner_checking">Recherche de mises à jour…</string>
+    <string name="software_update_banner_up_to_date">Votre appareil est à jour</string>
+    <string name="software_update_banner_update_available">Mises à jour disponibles</string>
+    <string name="software_update_can_be_updated_header">Rendez votre Pixel encore plus performant</string>
+    <string name="software_update_entry_title">Mises à jour logicielles</string>
+    <string name="software_update_pending_update_summary">Mise à jour en attente</string>
+    <string name="software_update_up_to_date_header">Votre Pixel est à jour</string>
+    <string name="software_update_up_to_specific_date_summary">Mise à jour le %1$s</string>
+    <string name="system_update_entry_title">Mise à jour du système</string>
+
+    <!-- Advanced VPN -->
+    <string name="advanced_vpn_preference_group_title">Intégré</string>
+    <string name="vpn_preference_group_title">Autres</string>
+
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">met l\'animation en pause</string>
+
+    <!-- Repair Mode -->
+    <string name="repair_mode_title">Mode réparation</string>
+    <string name="repair_mode_summary">Environnement sécurisé pour réparer l\'appareil</string>
+    <string name="repair_mode_active_summary">En mode de réparation</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_safety_issue_add_more_action_title">Ajouter</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_subtitle">Pour faciliter le déverrouillage, ajoutez d\'autres empreintes digitales</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_title">Ajouter des empreintes digitales</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_title_for_work">Ajouter d\'autres empreintes digitales pour le travail</string>
+    <string name="biometric_safety_issue_setup_action_title">Configurer</string>
+    <string name="biometric_safety_issue_setup_face_unlock_subtitle">Pour plus de simplicité, utilisez le déverrouillage par reconnaissance faciale en plus du déverrouillage par empreinte digitale</string>
+    <string name="biometric_safety_issue_setup_face_unlock_title">Configurer le déverrouillage par reconnaissance faciale</string>
+    <string name="biometric_safety_issue_setup_face_unlock_title_for_work">Configurer le déverrouillage par reconnaissance faciale pour le travail</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_subtitle">Pour plus de simplicité, configurez le déverrouillage par empreinte digitale et le déverrouillage par reconnaissance faciale</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_title">Configurer le déverrouillage par empreinte digitale et par reconnaissance faciale</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_title_for_work">Configurer le déverrouillage par empreinte digitale et par reconnaissance faciale pour le profil professionnel</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_subtitle">Pour plus de simplicité, utilisez le déverrouillage par empreinte digitale en plus du déverrouillage par reconnaissance faciale</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_title">Configurer le déverrouillage par empreinte digitale</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_title_for_work">Configurer le déverrouillage par empreinte digitale pour le travail</string>
+    <string name="delete_all_fps_dialog_cancel_button">Pas maintenant</string>
+    <string name="delete_all_fps_dialog_delete_button">Configurer</string>
+    <string name="delete_all_fps_dialog_msg">Toutes vos empreintes digitales actuelles seront supprimées. Vous ne pourrez pas utiliser votre empreinte digitale pour déverrouiller votre téléphone ni pour confirmer votre identité tant que le déverrouillage par empreinte digitale n\'aura pas été reconfiguré.</string>
+    <string name="delete_all_fps_dialog_title">Configurer le déverrouillage par empreinte digitale ?</string>
+    <string name="face_confirmation_hide_illustration_description">Vous pouvez déverrouiller votre téléphone par reconnaissance faciale quand vous le saisissez ou appuyez sur l\'écran.</string>
+    <string name="face_confirmation_info_enough_light">La reconnaissance est plus fiable quand la lumière est suffisante et que vous ne portez ni masque, ni lunettes sombres.</string>
+    <string name="face_confirmation_info_outside_screen">La reconnaissance faciale fonctionne uniquement avec l\'écran extérieur</string>
+    <string name="face_enroll_finish_subtitle">Vous pouvez désormais utiliser la reconnaissance faciale pour déverrouiller votre téléphone lorsque vous le saisissez ou que vous appuyez sur l\'écran.\n\nLe déverrouillage par reconnaissance faciale fonctionne de façon optimale lorsqu\'il y a assez de lumière et que vous ne portez ni masque ni lunettes sombres.</string>
+    <string name="face_enrolling_center_head">Centrez votre visage dans le cadre intérieur</string>
+    <string name="face_enrolling_close_to_continue">Pliez le téléphone pendant la configuration</string>
+    <string name="face_enrolling_close_to_continue_description">C\'est indispensable pour configurer ou utiliser la fonction</string>
+    <string name="face_enrolling_do_it_later">Plus tard</string>
+    <string name="face_enrolling_gaze_dialog_cancel">Annuler</string>
+    <string name="face_enrolling_gaze_dialog_continue">Configurer sans yeux ouverts</string>
+    <string name="face_enrolling_gaze_dialog_message">Voulez-vous configurer le déverrouillage par reconnaissance faciale sans exiger que vos yeux soient ouverts ? Avec ce réglage, quelqu\'un pourrait déverrouiller votre téléphone en le dirigeant vers votre visage à votre insu.</string>
+    <string name="face_enrolling_gaze_dialog_title">Configurer sans les yeux ouverts</string>
+    <string name="face_enrolling_title">Stabilisez le téléphone. Tournez la tête. Lentement.</string>
+    <string name="face_enrolling_title_accessibility">Regardez directement votre téléphone</string>
+    <string name="face_enrolling_too_close">Éloignez le téléphone</string>
+    <string name="face_enrolling_too_far">Rapprochez le téléphone</string>
+    <string name="face_enrolling_too_high">Placez le téléphone plus bas</string>
+    <string name="face_enrolling_too_left">Déplacez le téléphone vers la droite</string>
+    <string name="face_enrolling_too_low">Placez le téléphone plus haut</string>
+    <string name="face_enrolling_too_right">Déplacez le téléphone vers la gauche</string>
+    <string name="face_enrolling_turn_head_to_arrow">Tournez la tête en direction de la flèche</string>
+    <string name="face_enrolling_turned_too_far">Tournez un peu moins la tête</string>
+    <string name="fingerprint_enroll_finish_footer_button_add">Ajouter une empreinte digitale</string>
+    <string name="fingerprint_enroll_finish_subtitle_one_fingerprint_enrolled">Vous pouvez désormais utiliser votre empreinte digitale pour déverrouiller votre téléphone ou confirmer votre identité. Vous pouvez aussi ajouter une autre empreinte digitale pour plus de commodité.</string>
+    <string name="fingerprint_enroll_finish_subtitle_three_and_more_fingerprints_enrolled">Plus vous utilisez le déverrouillage par empreinte digitale, plus il devient performant. Vous pouvez même ajouter d\'autres empreintes.</string>
+    <string name="fingerprint_enroll_finish_subtitle_two_fingerprints_enrolled">Plus vous utilisez le déverrouillage par empreinte digitale, plus il devient performant. Vous pouvez même ajouter d\'autres empreintes pour plus de commodité.</string>
+    <string name="fingerprint_enroll_finish_title">Parfait !</string>
+    <string name="fingerprint_enroll_finish_title_one_fingerprint_enrolled">Une empreinte digitale a été ajoutée</string>
+    <string name="fingerprint_udfps_enroll_find_sensor_description">Le lecteur d\'empreinte digitale se trouvera sur l\'écran suivant. Pour plus de flexibilité, configurez au moins un doigt sur chaque main.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Nettoyez votre écran afin de retirer les taches, résidus ou traces. Cela permettra d\'effectuer une meilleure capture de votre empreinte digitale.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Nettoyez votre écran avant de continuer</string>
+    <string name="frr_notification_button_got_it">OK</string>
+    <string name="frr_notification_description">Pour optimiser les performances, suivez ces conseils :</string>
+    <string name="frr_notification_learn_more">&lt;a href=\'http://g.co/pixel/screenprotector\'&gt;En savoir plus&lt;/a&gt;</string>
+    <string name="frr_notification_non_mfg_sp_description">Utilisez une protection d\'écran certifiée Made for Google. D\'autres protections d\'écran peuvent interférer avec le capteur et l\'empêcher de fonctionner correctement.</string>
+    <string name="frr_notification_non_mfg_sp_title">Utilisez une protection d\'écran certifiée</string>
+    <string name="frr_notification_reset_fingerprint_button">Supprimer et configurer le déverrouillage par empreinte digitale</string>
+    <string name="frr_notification_reset_fingerprint_description">Cela peut parfois résoudre certains problèmes, en particulier si vous avez récemment ajouté ou retiré une protection d\'écran</string>
+    <string name="frr_notification_reset_fingerprint_title">Reconfigurer le déverrouillage par empreinte digitale</string>
+    <string name="frr_notification_screen_protector_description">Cela peut affecter la reconnaissance des empreintes digitales. Utilisez une protection d\'écran certifiée Made for Google. D\'autres protections d\'écran peuvent interférer avec le capteur et l\'empêcher de fonctionner correctement.</string>
+    <string name="frr_notification_screen_protector_title">Si vous utilisez une protection d\'écran…</string>
+    <string name="frr_notification_set_face_unlock_description">Utilisez le déverrouillage par reconnaissance faciale lorsque votre empreinte digitale n\'est pas reconnue, par exemple lorsque vos doigts sont mouillés</string>
+    <string name="frr_notification_set_face_unlock_title">Configurer le déverrouillage par reconnaissance faciale</string>
+    <string name="frr_notification_title">Vous rencontrez des problèmes avec le déverrouillage par empreinte digitale ?</string>
+    <string name="security_settings_face_enroll_consent_message">Utilisez le visage de votre enfant pour déverrouiller son téléphone ou valider son identité dans les applis</string>
+    <string name="security_settings_face_enroll_consent_secure_and_helpful_message_1">Le visage de votre enfant n\'est stocké que sur l\'appareil et n\'est jamais envoyé à Google</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">Vous pouvez maintenant utiliser la reconnaissance faciale pour déverrouiller votre téléphone lorsque vous le saisissez ou que vous appuyez sur l\'écran.\n\nLe déverrouillage par reconnaissance faciale fonctionne de façon optimale lorsqu\'il y a assez de lumière et que vous ne portez ni masque, ni lunettes sombres.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp_folded">Vous pouvez déverrouiller votre téléphone par reconnaissance faciale quand vous le saisissez ou appuyez sur l\'écran. Votre téléphone doit être plié pour utiliser le déverrouillage par reconnaissance faciale.\n\nLe déverrouillage par reconnaissance faciale fonctionne mieux quand la lumière est suffisante et que vous ne portez pas de masque ni de lunettes sombres.</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message_1">À tout moment dans les paramètres, vous et votre enfant pouvez supprimer son empreinte faciale, ou désactiver le déverrouillage par reconnaissance faciale. Les empreintes faciales sont stockées sur le téléphone jusqu\'à leur suppression.</string>
+    <string name="security_settings_face_enroll_introduction_control_message_2">Vous pouvez supprimer votre empreinte faciale ou désactiver le déverrouillage par reconnaissance faciale à tout moment dans les paramètres. Les empreintes faciales sont stockées sur le téléphone jusqu\'à ce que vous les supprimiez.</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message_1">Le déverrouillage par reconnaissance faciale crée une empreinte unique du visage de votre enfant pour valider son identité. Pour générer cette empreinte faciale lors de la configuration, votre enfant prendra des photos de son visage sous différents angles.\n\nLorsqu\'il se servira du déverrouillage par reconnaissance faciale, les images seront utilisées pour mettre à jour son empreinte faciale. Les images utilisées pour créer son empreinte faciale ne seront jamais stockées, contrairement à l\'empreinte faciale qui sera enregistrée de façon sécurisée sur le téléphone et ne le quittera jamais. Tous les traitements sont sécurisés sur son téléphone.</string>
+    <string name="security_settings_face_enroll_introduction_learn_more_message">En savoir plus : &lt;a href=\'http://g.co/pixel/faceunlock\'&gt;g.co/pixel/faceunlock&lt;/a&gt;</string>
+    <string name="security_settings_face_enroll_introduction_message_class3_2">Utilisez votre visage pour déverrouiller votre téléphone ou confirmer votre identité dans les applis</string>
+    <string name="security_settings_face_enroll_introduction_secure_and_helpful_message_1">Votre visage n\'est stocké que sur l\'appareil et n\'est jamais envoyé à Google</string>
+    <string name="security_settings_face_enroll_introduction_secure_and_helpful_message_2">Pour une expérience optimale, configurez le déverrouillage par reconnaissance faciale et le déverrouillage par empreinte digitale.</string>
+    <string name="security_settings_face_enroll_next">Suivant</string>
+    <string name="security_settings_face_enroll_partial_message">Pour de meilleures performances, vous pouvez reconfigurer le déverrouillage par reconnaissance faciale dans les paramètres</string>
+    <string name="security_settings_face_enroll_partial_start_over">Recommencer</string>
+    <string name="security_settings_face_enroll_partial_title">Configuration du déverrouillage facial terminée</string>
+    <string name="security_settings_face_enroll_timeout_message">Essayez plutôt la configuration rapide. Notez que vous devrez peut-être placer votre visage plus en face de votre téléphone lorsque vous utiliserez le déverrouillage par reconnaissance faciale.\n\nPour de meilleures performances, vous pouvez reconfigurer ce mode de déverrouillage dans les paramètres.</string>
+    <string name="security_settings_face_enroll_timeout_title">Impossible de poursuivre la configuration</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Réessayer</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Utiliser la config. rapide</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Quitter la configuration</string>
+    <string name="security_settings_face_enroll_too_hot_message">Impossible de terminer la configuration du déverrouillage par reconnaissance faciale, car le téléphone est trop chaud. Réessayez lorsqu\'il aura refroidi.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Passer le déverr. facial</string>
+    <string name="security_settings_face_enroll_too_hot_title">Le téléphone est trop chaud</string>
+    <string name="security_settings_fingerprint_enroll_consent_message">Utilisez l\'empreinte digitale de votre enfant pour déverrouiller son téléphone ou valider son identité dans les applis</string>
+    <string name="security_settings_fingerprint_enroll_consent_secure_and_helpful_message_1">Les empreintes digitales de votre enfant ne sont stockées que sur l\'appareil et ne sont jamais envoyées à Google</string>
+    <string name="security_settings_fingerprint_enroll_introduction_footer_title_3">Une méthode pratique et sécurisée</string>
+    <string name="security_settings_fingerprint_enroll_introduction_v3_message_2">Utilisez vos empreintes digitales pour déverrouiller votre téléphone ou confirmer votre identité dans les applis.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay" />
+    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6_2">Si vous disposez d\'une protection d\'écran, installez-la avant de configurer votre empreinte digitale afin d\'obtenir de meilleures performances.\n\nVous obtiendrez de meilleurs résultats avec une protection d\'écran certifiée Made for Google. Il se peut que votre empreinte digitale ne soit pas reconnue si vous utilisez un autre type de protection d\'écran.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_7">Vos empreintes digitales ne sont stockées que sur l\'appareil et ne sont jamais envoyées à Google.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_8">Pour une expérience optimale, ajoutez au moins deux empreintes digitales et configurez le déverrouillage par reconnaissance faciale.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more_2">En savoir plus : &lt;a href=\'http://g.co/pixel/fingerprintunlock\'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay" />
+    <string name="security_settings_udfps_enroll_start_message_new">Maintenez votre doigt posé à plat sur le lecteur jusqu\'à ce que vous sentiez une vibration. Ne configurez qu\'un seul doigt à la fois.</string>
+    <string name="security_settings_udfps_enroll_start_message_without_haptic">Maintenez votre doigt posé à plat sur le capteur jusqu\'à ce que la barre de progression soit remplie. Ne configurez qu\'un seul doigt à la fois.</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue" />
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle" />
+    <string name="setup_fingerprint_enroll_immobile_help_title" />
+
+    <!-- Simple mode / Simple view -->
+    <string name="simple_mode_category">Accès rapide</string>
+    <string name="simple_mode_description">Augmentez la taille du texte et des icônes, simplifiez la mise en page et ajoutez des boutons de navigation. LINK_BEGINEn savoir plus sur Vue simplifiéeLINK_END</string>
+    <string name="simple_mode_off_summary">Désactivé / Simplifier la disposition de l\'écran et faciliter la lecture du texte</string>
+    <string name="simple_mode_on_summary">Activé / Simplifier la disposition de l\'écran et faciliter la lecture du texte</string>
+    <string name="simple_mode_summary">Améliorer la lisibilité du texte et simplifier la navigation ainsi que la disposition de l\'écran</string>
+    <string name="simple_mode_suw_description">Pour offrir un design plus épuré et faciliter la prise en main, le Pixel peut automatiquement télécharger les applis et widgets essentiels, optimiser le format d\'écran, adapter la police et bien plus.</string>
+    <string name="simple_mode_suw_done_button">Terminé</string>
+    <string name="simple_mode_switch_title">Utiliser la Vue simplifiée</string>
+    <string name="simple_mode_title">Vue simplifiée</string>
+    <string name="simple_view_dialog_negative_button">Annuler</string>
+    <string name="simple_view_dialog_positive_button">Continuer</string>
+    <string name="simple_view_feature_disabled_dialog_message">Si vous désactivez Vue simplifiée, votre appareil retrouvera ses paramètres de police, d\'affichage et de mise en page d\'origine. Découvrez comment modifier ces paramètres de police individuels.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Votre appareil reviendra aux paramètres précédents</string>
+    <string name="simple_view_feature_enabled_dialog_message">Votre police actuelle est plus grande que celle définie dans les paramètres Simple View. L\'utilisation de Simple View réduira votre taille de police.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Réduction de la taille de police</string>
+</resources>
+=======
+>>>>>>> BASE      (ccd967e64acab8f54fc30cc2420664fc8ac8d5c2 Settings: Use expressive theme for gaze toggle)

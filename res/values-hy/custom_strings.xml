@@ -1,0 +1,181 @@
+<<<<<<< PATCH SET (3dd77e076dfe10ce9e91ffa2276c48b4fb677063 Settings: Implement Simple View accessibility option)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Ձեր գաղտնիությունն ապահովելու համար «Մաքուր ձայնով զանգեր» գործառույթը չի ուղարկում ձայնագրությունները կամ զրույցները Google-ին։\n\n«Մաքուր ձայնով զանգեր» գործառույթն աշխատում է Wi‑Fi-ով զանգերի դեպքում և ցանցերի մեծամասնությունում, սակայն հասանելի չէ 3G ցանցերի համար։</string>
+    <string name="clear_calling_title">Մաքուր ձայնով զանգեր</string>
+    <string name="clear_calling_toggle">Օգտագործել «Մաքուր ձայնով զանգեր» գործառույթը</string>
+    <string name="clear_calling_topintro">Նվազեցնում է ֆոնային աղմուկը զանգերի ժամանակ</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Մաքրել հարցումը</string>
+    <string name="language_picker_page">Լեզվի ընտրիչի էջ</string>
+    <string name="search_region">Որոնեք տարածաշրջաններ</string>
+    <string name="search_region_page">Տարածաշրջանի որոնման էջ</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Միացնել «Հարմարվող մարտկոց» գործառույթը</string>
+    <string name="basic_battery_saver_title">Մարտկոցի տնտեսման ստանդարտ ռեժիմ</string>
+    <string name="basic_battery_saver_summary">Սահմանափակում է վիզուալ էֆեկտները և աշխատանքը ֆոնային ռեժիմում։ Միացնում է մուգ թեման, եթե այն դեռ միացված չէ։</string>
+    <string name="battery_saver_reminder_category">Հիշեցումներ</string>
+    <string name="battery_saver_reminder_switch_title">Մարտկոցի տնտեսման հիշեցումներ</string>
+    <string name="battery_saver_reminder_switch_summary">Ստանալ հիշեցումներ, երբ մարտկոցի լիցքը քիչ է</string>
+    <string name="battery_saver_schedule_category">Ժամանակացույց</string>
+    <string name="battery_saver_schedule_switch_title">Միացնել մարտկոցի լիցքի հիման վրա</string>
+    <string name="battery_saver_schedule_switch_summary">Մարտկոցի տնտեսումը միանում է, երբ մարտկոցի լիցքը իջնում է մինչև ձեր սահմանած մակարդակը</string>
+    <string name="battery_schedule_title">Ժամանակացույց և հիշեցումներ</string>
+    <string name="battery_schedule_summary">Կարգավորել, թե երբ պետք է մարտկոցի տնտեսումը միանա</string>
+    <string name="extreme_battery_saver_title">Մարտկոցի առավելագույն տնտեսում</string>
+    <string name="extreme_battery_saver_summary">Ներառում է վերը թվարկված բոլոր փոփոխությունները։ Ինչպես նաև դադարեցնում է երկրորդական հավելվածների աշխատանքը և անջատում դրանց ծանուցումները։</string>
+    <string name="unified_battery_saver_page_intro">Տնտեսեք մարտկոցի լիցքը, որպեսզի ավելի երկար օգտագործեք հեռախոսը լիցքավորումների միջակայքում</string>
+
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Թարմացումների առկայության ստուգում</string>
+    <string name="play_application_update_entry_title">Հավելվածների թարմացումներ</string>
+    <string name="software_update_banner_checking">Ստուգվում է թարմացումների առկայությունը…</string>
+    <string name="software_update_banner_up_to_date">Ձեր սարքը թարմացված է</string>
+    <string name="software_update_banner_update_available">Առկա են թարմացումներ</string>
+    <string name="software_update_can_be_updated_header">Ավելի լավը դարձրեք ձեր Pixel-ը</string>
+    <string name="software_update_entry_title">Ծրագրային թարմացումներ</string>
+    <string name="software_update_pending_update_summary">Սպասում է թարմացման</string>
+    <string name="software_update_up_to_date_header">Ձեր Pixel-ը թարմացված է</string>
+    <string name="software_update_up_to_specific_date_summary">Վերջին թարմացումը՝ %1$s</string>
+    <string name="system_update_entry_title">Համակարգի թարմացում</string>
+
+    <!-- Advanced VPN -->
+    <string name="advanced_vpn_preference_group_title">Ներկառուցված</string>
+    <string name="vpn_preference_group_title">Այլ</string>
+
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">դադարեցնել անիմացիան</string>
+
+    <!-- Repair Mode -->
+    <string name="repair_mode_title">Նորոգման ռեժիմ</string>
+    <string name="repair_mode_summary">Ապահով միջավայր սարքի վերանորոգման համար</string>
+    <string name="repair_mode_active_summary">Նորոգման ռեժիմում</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_safety_issue_add_more_action_title">Ավելացնել ավելին</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_subtitle">Ապակողպումն ավելի հարմար դարձնելու համար ավելացրեք ավելի շատ մատնահետքեր</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_title">Ավելացրեք ավելի շատ մատնահետքեր</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_title_for_work">Ավելացրեք լրացուցիչ մատնահետքեր աշխատանքային պրոֆիլում</string>
+    <string name="biometric_safety_issue_setup_action_title">Կարգավորել</string>
+    <string name="biometric_safety_issue_setup_face_unlock_subtitle">Ապակողպումն ավելի հարմար դարձնելու համար օգտագործեք դեմքով ապակողպումը մատնահետքով ապակողպման հետ միասին</string>
+    <string name="biometric_safety_issue_setup_face_unlock_title">Կարգավորեք դեմքով ապակողպումը</string>
+    <string name="biometric_safety_issue_setup_face_unlock_title_for_work">Կարգավորեք դեմքով ապակողպումը աշխատանքային պրոֆիլի համար</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_subtitle">Ապակողպումն ավելի հարմար դարձնելու համար կարգավորեք ինչպես մատնահետքով, այնպես էլ դեմքով ապակողպումը</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_title">Կարգավորեք մատնահետքով և դեմքով ապակողպումը</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_title_for_work">Կարգավորեք մատնահետքով և դեմքով ապակողպումը աշխատանքային պրոֆիլի համար</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_subtitle">Ապակողպումն ավելի հարմար դարձնելու համար օգտագործեք մատնահետքով ապակողպումը դեմքով ապակողպման հետ միասին</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_title">Մատնահետքով ապակողպման կարգավորում</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_title_for_work">Կարգավորեք մատնահետքով ապակողպումը աշխատանքային պրոֆիլում</string>
+    <string name="delete_all_fps_dialog_cancel_button">Ոչ հիմա</string>
+    <string name="delete_all_fps_dialog_delete_button">Կարգավորել հիմա</string>
+    <string name="delete_all_fps_dialog_msg">Ձեր բոլոր մատնահետքերը կջնջվեն։ Դուք պետք է նորից կարգավորեք մատնահետքով ապակողպումը, որպեսզի կարողանաք ապակողպել ձեր հեռախոսը և հաստատել ձեր ինքնությունը։</string>
+    <string name="delete_all_fps_dialog_title">Կարգավորե՞լ մատնահետքով ապակողպումը</string>
+    <string name="face_confirmation_hide_illustration_description">Այժմ, երբ դուք վերցնում եք ձեր հեռախոսը կամ հպում եք էկրանին, դուք կարող եք ապակողպել այն ձեր դեմքի միջոցով։</string>
+    <string name="face_confirmation_info_enough_light">Դեմքով ապակողպումը լավագույնս աշխատում է լավ լուսավորության պայմաններում, և երբ դիմակ կամ մուգ ակնոց չեք կրում։</string>
+    <string name="face_confirmation_info_outside_screen">Դեմքով ապակողպումն աշխատում է միայն արտաքին էկրանից</string>
+    <string name="face_enroll_finish_subtitle">Այժմ, երբ վերցնում եք ձեր հեռախոսը կամ հպում եք էկրանին, դուք կարող եք ապակողպել այն ձեր դեմքի միջոցով։\n\nԴեմքով ապակողպումը լավագույնս աշխատում է լավ լուսավորության պայմաններում, և երբ դիմակ կամ մուգ ակնոց չեք կրում։</string>
+    <string name="face_enrolling_center_head">Դեմքը պետք է լինի ներսի շրջանակում</string>
+    <string name="face_enrolling_close_to_continue">Ծալեք հեռախոսը կարգավորման ժամանակ</string>
+    <string name="face_enrolling_close_to_continue_description">Ծալեք հեռախոսը, որ կարգավորեք/օգտագործեք դեմքով ապակողպումը</string>
+    <string name="face_enrolling_do_it_later">Ավելի ուշ</string>
+    <string name="face_enrolling_gaze_dialog_cancel">Չեղարկել</string>
+    <string name="face_enrolling_gaze_dialog_continue">Կարգավորել առանց աչքերի</string>
+    <string name="face_enrolling_gaze_dialog_message">Ուզում եք, որ դեմքով ապակողպումը հնարավոր լինի նույնիսկ փակ աչքերո՞վ։ Այդ դեպքում այլ մարդիկ կարող են ապակողպել հեռախոսը՝ առանց ձեր իմացության մոտեցնելով այն ձեր դեմքին։</string>
+    <string name="face_enrolling_gaze_dialog_title">Առանց աչքերի կարգավորում</string>
+    <string name="face_enrolling_title">Հեռախոսն ուղիղ պահեք։ Պտտեք գլուխը։ Մի շտապեք։</string>
+    <string name="face_enrolling_title_accessibility">Նայեք ուղիղ էկրանին</string>
+    <string name="face_enrolling_too_close">Հեռախոսը փոքր-ինչ հեռու պահեք</string>
+    <string name="face_enrolling_too_far">Մոտեցրեք հեռախոսը</string>
+    <string name="face_enrolling_too_high">Հեռախոսն ավելի ներքև պահեք</string>
+    <string name="face_enrolling_too_left">Հեռախոսը տեղափոխեք աջ</string>
+    <string name="face_enrolling_too_low">Հեռախոսն ավելի վերև պահեք</string>
+    <string name="face_enrolling_too_right">Հեռախոսը տեղափոխեք ձախ</string>
+    <string name="face_enrolling_turn_head_to_arrow">Գլուխը շրջեք դեպի սլաքը</string>
+    <string name="face_enrolling_turned_too_far">Փոքր-ինչ հետ պտտեք գլուխը</string>
+    <string name="fingerprint_enroll_finish_footer_button_add">Ավելացնել ևս մեկ մատնահետք</string>
+    <string name="fingerprint_enroll_finish_subtitle_one_fingerprint_enrolled">Այժմ կարող եք մատնահետքի միջոցով հաստատել ձեր ինքնությունն ու ապակողպել հեռախոսը։ Դուք կարող եք ավելացնել այլ մատնահետք։</string>
+    <string name="fingerprint_enroll_finish_subtitle_three_and_more_fingerprints_enrolled">Որքան շատ օգտագործեք մատնահետքով ապակողպումը, այնքան այն ավելի ճիշտ կաշխատի։ Բացի այդ՝ կարող եք ավելացնել այլ մատնահետքեր։</string>
+    <string name="fingerprint_enroll_finish_subtitle_two_fingerprints_enrolled">Որքան շատ օգտագործեք մատնահետքով ապակողպումը, այնքան այն ավելի ճիշտ կաշխատի։ Բացի այդ՝ ցանկության դեպքում կարող եք ավելացնել այլ մատնահետքեր։</string>
+    <string name="fingerprint_enroll_finish_title">Լավ է</string>
+    <string name="fingerprint_enroll_finish_title_one_fingerprint_enrolled">Ավելացվել է 1 մատնահետք</string>
+    <string name="fingerprint_udfps_enroll_find_sensor_description">Մատնահետքի սենսորը կլինի հաջորդ էկրանին։ Առավելագույն ճկունության համար սկանավորեք յուրաքանչյուր ձեռքի առնվազն 1 մատ։</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Սրբեք էկրանը՝ բոլոր հետքերը և բծերը մաքրելու համար։ Սա կօգնի գրանցել մատնահետքի պարզ պատկերներ։</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Շարունակելուց առաջ մաքրեք ձեր էկրանը</string>
+    <string name="frr_notification_button_got_it">Եղավ</string>
+    <string name="frr_notification_description">Լավագույն արտադրողականության համար հետևեք հետևյալ խորհուրդներին․</string>
+    <string name="frr_notification_learn_more">&lt;a href=\'http://g.co/pixel/screenprotector\'&gt;Իմանալ ավելին&lt;/a&gt;</string>
+    <string name="frr_notification_non_mfg_sp_description">Օգտագործեք էկրանի պաշտպանիչ՝ «Made for Google» մակնշմամբ։ Առանց այդպիսի մակնշման էկրանի պաշտպանիչները կարող են խանգարել սենսորի նորմալ աշխատանքին։</string>
+    <string name="frr_notification_non_mfg_sp_title">Օգտագործեք հավաստագրված էկրանի պաշտպանիչ</string>
+    <string name="frr_notification_reset_fingerprint_button">Ջնջել և կարգավորել «Մատնահետքով ապակողպումը»</string>
+    <string name="frr_notification_reset_fingerprint_description">Սա երբեմն կարող է շտկել խնդիրները, հատկապես, եթե դուք վերջերս ավելացրել կամ հեռացրել եք էկրանի պաշտպանիչ</string>
+    <string name="frr_notification_reset_fingerprint_title">Նորից կարգավորեք մատնահետքով ապակողպումը</string>
+    <string name="frr_notification_screen_protector_description">Դա կարող է ազդել մատնահետքի ճանաչման վրա։ Օգտագործեք էկրանի պաշտպանիչ՝ «Made for Google» մակնշմամբ։ Առանց այդպիսի մակնշման էկրանի պաշտպանիչները կարող են խանգարել սենսորի նորմալ աշխատանքին։</string>
+    <string name="frr_notification_screen_protector_title">Եթե օգտագործում եք էկրանի պաշտպանիչ…</string>
+    <string name="frr_notification_set_face_unlock_description">Օգտագործեք դեմքով ապակողպում, երբ ձեր մատնահետքը չի հաջողվում ճանաչել, օրինակ՝ երբ ձեր մատները թաց են</string>
+    <string name="frr_notification_set_face_unlock_title">Կարգավորեք դեմքով ապակողպումը</string>
+    <string name="frr_notification_title">Մատնահետքով ապակողպման խնդիր ունե՞ք։</string>
+    <string name="security_settings_face_enroll_consent_message">Թույլ տվեք ձեր երեխային օգտագործել իր դեմքը՝ հեռախոսն ապակողպելու կամ հավելվածներում իր ինքնությունը հաստատելու համար</string>
+    <string name="security_settings_face_enroll_consent_secure_and_helpful_message_1">Ձեր երեխայի դեմքի նմուշը պահվում է սարքում և երբեք չի ուղարկվում Google-ին</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">Այժմ, երբ վերցնում եք ձեր հեռախոսը կամ հպում եք էկրանին, դուք կարող եք ապակողպել այն ձեր դեմքի միջոցով։\n\nԴեմքով ապակողպումը լավագույնս աշխատում է լավ լուսավորության պայմաններում, և երբ դուք չեք կրում դիմակ կամ մուգ ակնոց։</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp_folded">Այժմ, երբ դուք վերցնում եք ձեր հեռախոսը կամ հպում եք էկրանին, դուք կարող եք ապակողպել այն ձեր դեմքի միջոցով։ Դեմքով ապակողպելու համար ձեր հեռախոսը պետք է ծալված լինի։\n\nԴեմքով ապակողպումը լավագույնս աշխատում է լավ լուսավորության պայմաններում, և երբ դուք չեք կրում դիմակ կամ մուգ ակնոց։</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message_1">Դուք և ձեր երեխան ցանկացած պահի կարող եք ջնջել իր դեմքի նմուշը կամ անջատել դեմքով ապակողպումը սարքի կարգավորումներում։ Դեմքի նմուշները կպահվեն հեռախոսում, մինչև որ ջնջեք դրանք։</string>
+    <string name="security_settings_face_enroll_introduction_control_message_2">Դուք ցանկացած պահի կարող եք ջնջել ձեր դեմքի նմուշը կամ անջատել դեմքով ապակողպումը սարքի կարգավորումներում։ Դեմքի նմուշները կպահվեն հեռախոսում, մինչև որ ջնջեք դրանք։</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message_1">Դեմքով ապակողպումը ստեղծում է ձեր երեխայի դեմքի եզակի նմուշը՝ նրա ինքնությունը հաստատելու համար։ Կարգավորման ժամանակ դեմքի նմուշը ստեղծելու համար երեխան պետք է լուսանկարի իր դեմքը մի քանի անկյուններից։\n\nԵրեխայի դեմքի նմուշը թարմացվում է դեմքով ապակողպման ընթացքում ստացված պատկերների հիման վրա։ Դեմքի նմուշը ստեղծելու ժամանակ արված լուսանկարները չեն պահվում, իսկ դեմքի նմուշը պահվում է միայն հեռախոսում։ Բոլոր մշակումները կատարվում են անմիջապես հեռախոսում։</string>
+    <string name="security_settings_face_enroll_introduction_learn_more_message">Իմացեք ավելին &lt;a href=\'http://g.co/pixel/faceunlock\'&gt;g.co/pixel/faceunlock&lt;/a&gt; էջում</string>
+    <string name="security_settings_face_enroll_introduction_message_class3_2">Օգտագործեք ձեր դեմքը՝ հեռախոսն ապակողպելու կամ հավելվածներում իսկորոշվելու համար</string>
+    <string name="security_settings_face_enroll_introduction_secure_and_helpful_message_1">Ձեր դեմքի նմուշը պահվում է սարքում և երբեք չի ուղարկվում Google-ին</string>
+    <string name="security_settings_face_enroll_introduction_secure_and_helpful_message_2">Ապահովության համար մատնահետքով ապակողպման հետ միասին կարգավորեք նաև դեմքով ապակողպումը</string>
+    <string name="security_settings_face_enroll_next">Առաջ</string>
+    <string name="security_settings_face_enroll_partial_message">Կարգավորումներում կարող եք նորից կարգավորել դեմքով ապակողպումը։</string>
+    <string name="security_settings_face_enroll_partial_start_over">Սկսել նորից</string>
+    <string name="security_settings_face_enroll_partial_title">Դեմքով ապակողպման կարգավորումն ավարտված է</string>
+    <string name="security_settings_face_enroll_timeout_message">Փորձեք արագ կարգավորումը։ Հիշեք, որ դեմքով ապակողպման ժամանակ կարող է պահանջվել, որ ավելի ուղիղ պահեք գլուխը հեռախոսի առջև։\n\nԿարգավորումներում կարող եք նորից կարգավորել դեմքով ապակողպումը։</string>
+    <string name="security_settings_face_enroll_timeout_title">Հնարավոր չէ շարունակել կարգավորումը</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Կրկնել</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Օգտագործել արագ կարգավորումը</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Փակել կարգավորումը</string>
+    <string name="security_settings_face_enroll_too_hot_message">Հնարավոր չէ կարգավորել դեմքով ապակողպումը, քանի որ հեռախոսը գերտաքացել է։ Փորձեք ավելի ուշ, երբ այն հովանա։</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Բաց թողնել դեմքով ապակողպումը</string>
+    <string name="security_settings_face_enroll_too_hot_title">Հեռախոսը գերտաքացել է</string>
+    <string name="security_settings_fingerprint_enroll_consent_message">Թույլ տվեք ձեր երեխային օգտագործել իր մատնահետքը՝ հեռախոսն ապակողպելու կամ հավելվածներում իր ինքնությունը հաստատելու համար</string>
+    <string name="security_settings_fingerprint_enroll_consent_secure_and_helpful_message_1">Ձեր երեխայի մատնահետքերը պահվում են սարքում և երբեք չեն ուղարկվում Google-ին</string>
+    <string name="security_settings_fingerprint_enroll_introduction_footer_title_3">Անվտանգ և օգտակար</string>
+    <string name="security_settings_fingerprint_enroll_introduction_v3_message_2">Օգտագործեք ձեր մատնահետքը՝ հեռախոսն ապակողպելու կամ հավելվածներում իսկորոշվելու համար</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay" />
+    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6_2">Եթե էկրանի պաշտպանիչ ունեք, փակցրեք այն նախքան ձեր մատնահետքը կարգավորելը։\n\nԽորհուրդ ենք տալիս օգտագործել Made for Google հավաստագրմամբ էկրանի պաշտպանիչ։ Այլ պաշտպանիչներով սարքերը կարող են չճանաչել ձեր մատնահետքը։</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_7">Ձեր մատնահետքերը պահվում են սարքում և երբեք չեն ուղարկվում Google-ին</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_8">Ապահովության համար ավելացրեք ևս 2 մատնահետք և կարգավորեք դեմքով ապակողպումը</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more_2">Իմացեք ավելին &lt;a href=\'http://g.co/pixel/fingerprintunlock\'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; էջում</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay" />
+    <string name="security_settings_udfps_enroll_start_message_new">Մատը պահեք սկաների վրա այնքան ժամանակ, մինչև թրթռոց զգաք։ Միաժամանակ հնարավոր է կարգավորել միայն 1 մատ։</string>
+    <string name="security_settings_udfps_enroll_start_message_without_haptic">Մատը պահեք սկաների վրա այնքան ժամանակ, մինչև ընթացագոտին լցվի։ Միաժամանակ հնարավոր է կարգավորել միայն 1 մատը։</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue" />
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle" />
+    <string name="setup_fingerprint_enroll_immobile_help_title" />
+
+    <!-- Simple mode / Simple view -->
+    <string name="simple_mode_category">Արագ մուտք</string>
+    <string name="simple_mode_description">Մեծացրեք տեքստի և պատկերակների չափսը, պարզեցրեք դասավորությունը և ավելացրեք նավիգացիայի կոճակներ։ LINK_BEGINԻմանալ ավելին «Պարզ դիտակերպ» ռեժիմի մասինLINK_END։</string>
+    <string name="simple_mode_off_summary">Անջատված է / Պարզեցնել դասավորությունը և ավելի ընթեռնելի դարձնել տեքստը</string>
+    <string name="simple_mode_on_summary">Միացված է / Պարզեցնել դասավորությունը և ավելի ընթեռնելի դարձնել տեքստը</string>
+    <string name="simple_mode_summary">Բարելավեք տեքստի ընթեռնելիությունը և պարզեցրեք էկրանի տեսքն ու նավիգացիան</string>
+    <string name="simple_mode_suw_description">Որպեսզի ավելի հեշտ ծանոթանաք ձեր Pixel սարքին և ավելի հարմար ինտերֆեյս ունենաք, սարքը կարող է ավտոմատ ներբեռնել հիմնական հավելվածներն ու վիջեթները, օպտիմալացնել էկրանի դասավորությունը, կարգավորել տառատեսակը և այլ գործողություններ կատարել։</string>
+    <string name="simple_mode_suw_done_button">Պատրաստ է</string>
+    <string name="simple_mode_switch_title">Օգտագործել պարզ դիտակերպը</string>
+    <string name="simple_mode_title">Պարզ դիտակերպ</string>
+    <string name="simple_view_dialog_negative_button">Չեղարկել</string>
+    <string name="simple_view_dialog_positive_button">Շարունակել</string>
+    <string name="simple_view_feature_disabled_dialog_message">Եթե անջատեք «Պարզ դիտակերպ» ռեժիմը, ձեր սարքում կվերականգնվեն տառատեսակի, էկրանի և դասավորության սկզբնական կարգավորումները։ Իմացեք, թե ինչպես փոխել տառատեսակի առանձին կարգավորումները։</string>
+    <string name="simple_view_feature_disabled_dialog_title">Ձեր սարքում կվերականգնվեն նախկին կարգավորումները</string>
+    <string name="simple_view_feature_enabled_dialog_message">Ձեր ընթացիկ տառատեսակն ավելի մեծ է, քան պարզ դիտակերպի կարգավորումներում սահմանվածը։ Եթե միացնեք պարզ դիտակերպը, տառատեսակի չափսը կփոքրանա։</string>
+    <string name="simple_view_feature_enabled_dialog_title">Տառատեսակի չափսը կփոքրանա</string>
+</resources>
+=======
+>>>>>>> BASE      (ccd967e64acab8f54fc30cc2420664fc8ac8d5c2 Settings: Use expressive theme for gaze toggle)
