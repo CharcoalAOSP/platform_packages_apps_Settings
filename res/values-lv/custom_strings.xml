@@ -1,0 +1,181 @@
+<<<<<<< PATCH SET (3dd77e076dfe10ce9e91ffa2276c48b4fb677063 Settings: Implement Simple View accessibility option)
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clear Calling -->
+    <string name="clear_calling_footer">Lai aizsargātu jūsu konfidencialitāti, funkcija Skaidri zvani nesūta audio vai sarunas uzņēmumam Google.\n\nFunkcija Skaidri zvani darbojas Wi-Fi zvanos un vairumā tīklu, taču nav pieejama 3G tīklos.</string>
+    <string name="clear_calling_title">Skaidri zvani</string>
+    <string name="clear_calling_toggle">Izmantot funkciju “Skaidra skaņa zvana laikā”</string>
+    <string name="clear_calling_topintro">Tiek samazināti fona trokšņi zvanu laikā</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Notīrīt vaicājumu</string>
+    <string name="language_picker_page">Valodas atlasītāja lapa</string>
+    <string name="search_region">Meklēt reģionus</string>
+    <string name="search_region_page">Meklēšanas reģiona lapa</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Izmantot funkciju Adaptīvais akumulators</string>
+    <string name="basic_battery_saver_title">Akumulatora enerģijas standarta taupīšanas režīms</string>
+    <string name="basic_battery_saver_summary">Tiek ierobežoti vizuālie efekti un fonā izpildāmas darbības. Ja vēl nav ieslēgts tumšais motīvs, tas tiek ieslēgts.</string>
+    <string name="battery_saver_reminder_category">Atgādinājumi</string>
+    <string name="battery_saver_reminder_switch_title">Akumulatora enerģijas taupīšanas režīma atgādinājumi</string>
+    <string name="battery_saver_reminder_switch_summary">Saņemsiet atgādinājumus, ja akumulatora uzlādes līmenis būs zems.</string>
+    <string name="battery_saver_schedule_category">Grafiks</string>
+    <string name="battery_saver_schedule_switch_title">Ieslēgt, pamatojoties uz akumulatora uzlādes līmeni</string>
+    <string name="battery_saver_schedule_switch_summary">Akumulatora enerģijas taupīšanas režīms tiek ieslēgts, kad akumulatora uzlādes līmenis sasniedz jūsu iestatīto līmeni.</string>
+    <string name="battery_schedule_title">Grafiks un atgādinājumi</string>
+    <string name="battery_schedule_summary">Varat pārvaldīt, kad jāieslēdz akumulatora enerģijas taupīšanas režīms</string>
+    <string name="extreme_battery_saver_title">Akumulatora enerģijas maksimālas taupīšanas režīms</string>
+    <string name="extreme_battery_saver_summary">Ietver visas iepriekš norādītās izmaiņas. Tiek arī pārtraukta nesvarīgu lietotņu darbība un to paziņojumi.</string>
+    <string name="unified_battery_saver_page_intro">Ietaupiet enerģiju, lai tālruni varētu ilgāk izmantot no vienas akumulatora uzlādes reizes līdz otrai.</string>
+
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Pārbaudiet, vai ir pieejami atjauninājumi.</string>
+    <string name="play_application_update_entry_title">Lietotņu atjauninājumi</string>
+    <string name="software_update_banner_checking">Notiek atjauninājumu pārbaude…</string>
+    <string name="software_update_banner_up_to_date">Jūsu ierīce ir atjaunināta</string>
+    <string name="software_update_banner_update_available">Ir pieejami atjauninājumi</string>
+    <string name="software_update_can_be_updated_header">Padariet savu Pixel ierīci vēl labāku</string>
+    <string name="software_update_entry_title">Programmatūras atjauninājumi</string>
+    <string name="software_update_pending_update_summary">Neapstiprināts atjauninājums</string>
+    <string name="software_update_up_to_date_header">Pixel ierīce ir atjaunināta</string>
+    <string name="software_update_up_to_specific_date_summary">Atjaunināta šādā datumā: %1$s.</string>
+    <string name="system_update_entry_title">Sistēmas atjauninājums</string>
+
+    <!-- Advanced VPN -->
+    <string name="advanced_vpn_preference_group_title">Iebūvēts</string>
+    <string name="vpn_preference_group_title">Citi</string>
+
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">pārtraukt animāciju</string>
+
+    <!-- Repair Mode -->
+    <string name="repair_mode_title">Remonta režīms</string>
+    <string name="repair_mode_summary">Droša vide ierīces remontēšanai</string>
+    <string name="repair_mode_active_summary">Remonta režīmā</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_safety_issue_add_more_action_title">Pievienot vēl</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_subtitle">Lai atbloķēšana būtu ērtāka, pievienojiet papildu pirkstu nospiedumus.</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_title">Pievienojiet citu pirkstu nospiedumus</string>
+    <string name="biometric_safety_issue_add_more_fingerprints_title_for_work">Citu pirkstu nospiedumu pievienošana darba profilam</string>
+    <string name="biometric_safety_issue_setup_action_title">Iestatīt</string>
+    <string name="biometric_safety_issue_setup_face_unlock_subtitle">Lai atbloķēšana būtu ērtāka, izmantojiet autorizāciju pēc sejas kopā ar autorizāciju ar pirksta nospiedumu.</string>
+    <string name="biometric_safety_issue_setup_face_unlock_title">Autorizācijas pēc sejas iestatīšana</string>
+    <string name="biometric_safety_issue_setup_face_unlock_title_for_work">Autorizācijas pēc sejas iestatīšana darba profilam</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_subtitle">Lai atbloķēšana būtu ērtāka, iestatiet gan autorizāciju ar pirksta nospiedumu, gan autorizāciju pēc sejas.</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_title">Autorizācijas ar pirksta nospiedumu un autorizācijas pēc sejas iestatīšana</string>
+    <string name="biometric_safety_issue_setup_fingerprint_face_unlock_title_for_work">Autorizācijas ar pirksta nospiedumu un autorizācijas pēc sejas iestatīšana darba profilam</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_subtitle">Lai atbloķēšana būtu ērtāka, izmantojiet autorizāciju ar pirksta nospiedumu kopā ar autorizāciju pēc sejas.</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_title">Iestatiet autorizāciju ar pirksta nospiedumu</string>
+    <string name="biometric_safety_issue_setup_fingerprint_unlock_title_for_work">Autorizācijas ar pirksta nospiedumu iestatīšana darba profilam</string>
+    <string name="delete_all_fps_dialog_cancel_button">Vēlāk</string>
+    <string name="delete_all_fps_dialog_delete_button">Iestatīt tūlīt</string>
+    <string name="delete_all_fps_dialog_msg">Tiks dzēsti visi pašreizējie pirkstu nospiedumi, un jūs nevarēsiet izmantot pirksta nospiedumu, lai atbloķētu tālruni vai verificētu savu identitāti, kamēr autorizācija ar pirksta nospiedumu nebūs atkārtoti iestatīta.</string>
+    <string name="delete_all_fps_dialog_title">Vai iestatīt autorizāciju ar pirksta nospiedumu?</string>
+    <string name="face_confirmation_hide_illustration_description">Tagad, paņemot tālruni vai pieskaroties tā ekrānam, varat izmantot autorizāciju pēc sejas.</string>
+    <string name="face_confirmation_info_enough_light">Autorizācija pēc sejas vislabāk darbojas, ja ir pietiekams apgaismojums un jūs nevalkājat masku vai tumšas brilles.</string>
+    <string name="face_confirmation_info_outside_screen">Autorizācija pēc sejas darbojas tikai no ārējā ekrāna</string>
+    <string name="face_enroll_finish_subtitle">Tagad, paņemot tālruni vai pieskaroties ekrānam, varat izmantot seju, lai atbloķētu tālruni.\n\nAutorizācija pēc sejas vislabāk darbojas, ja ir pietiekams apgaismojums un jūs nevalkājat masku vai tumšas brilles.</string>
+    <string name="face_enrolling_center_head">Centrējiet seju iekšējā rāmī</string>
+    <string name="face_enrolling_close_to_continue">Iestatīšanas laikā salokiet tālruni</string>
+    <string name="face_enrolling_close_to_continue_description">Tālrunis jāsaloka, lai iestatītu vai izmantotu autorizāciju pēc sejas.</string>
+    <string name="face_enrolling_do_it_later">Vēlāk</string>
+    <string name="face_enrolling_gaze_dialog_cancel">Atcelt</string>
+    <string name="face_enrolling_gaze_dialog_continue">Iestatīt, kad acis aizvērtas</string>
+    <string name="face_enrolling_gaze_dialog_message">Vai vēlaties iestatīt autorizāciju pēc sejas, kuras laikā acīm nav jābūt atvērtām? Ja šādi veiksiet iestatīšanu, kāds varēs atbloķēt jūsu tālruni, bez jūsu ziņas pavēršot to pret jūsu seju.</string>
+    <string name="face_enrolling_gaze_dialog_title">Iestatīšana, kad acis ir aizvērtas</string>
+    <string name="face_enrolling_title">Turiet tālruni nekustīgi. Pagrieziet galvu. Kustieties lēnām.</string>
+    <string name="face_enrolling_title_accessibility">Skatieties tieši uz tālruni</string>
+    <string name="face_enrolling_too_close">Pārvietojiet tālruni tālāk.</string>
+    <string name="face_enrolling_too_far">Pārvietojiet tālruni tuvāk.</string>
+    <string name="face_enrolling_too_high">Nolaidiet tālruni zemāk.</string>
+    <string name="face_enrolling_too_left">Pārvietojiet tālruni pa labi.</string>
+    <string name="face_enrolling_too_low">Paceliet tālruni augstāk.</string>
+    <string name="face_enrolling_too_right">Pārvietojiet tālruni pa kreisi.</string>
+    <string name="face_enrolling_turn_head_to_arrow">Pagrieziet galvu pret bultiņu.</string>
+    <string name="face_enrolling_turned_too_far">Pagrieziet galvu nedaudz mazāk.</string>
+    <string name="fingerprint_enroll_finish_footer_button_add">Pievienot cita pirksta nospiedumu</string>
+    <string name="fingerprint_enroll_finish_subtitle_one_fingerprint_enrolled">Tagad varat izmantot pirksta nospiedumu, lai atbloķētu tālruni vai apstiprinātu savu identitāti. Ērtākai lietošanai varat pievienot vēl vienu pirksta nospiedumu.</string>
+    <string name="fingerprint_enroll_finish_subtitle_three_and_more_fingerprints_enrolled">Jo biežāk izmantosiet autorizāciju ar pirksta nospiedumu, jo labāk tā darbosies. Varat pievienot vēl vairāk pirkstu nospiedumu.</string>
+    <string name="fingerprint_enroll_finish_subtitle_two_fingerprints_enrolled">Jo biežāk izmantosiet autorizāciju ar pirksta nospiedumu, jo labāk tā darbosies. Ērtības labad varat pievienot vēl vairāk pirkstu nospiedumu.</string>
+    <string name="fingerprint_enroll_finish_title">Gatavs!</string>
+    <string name="fingerprint_enroll_finish_title_one_fingerprint_enrolled">Pievienots viens pirksta nospiedums</string>
+    <string name="fingerprint_udfps_enroll_find_sensor_description">Nākamajā ekrānā būs redzams pirksta nospieduma sensors. Lai nodrošinātu lielāku elastību, iestatiet vismaz vienu katras rokas pirkstu.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_message">Notīriet ekrānu, lai uz tā nebūtu švīku vai traipu. Tādējādi kamera varēs uzņemt skaidrākus pirksta nospieduma attēlus.</string>
+    <string name="fingerprint_udfps_pre_enroll_runner_dialog_title">Notīriet savu ekrānu, pirms turpināt</string>
+    <string name="frr_notification_button_got_it">Labi</string>
+    <string name="frr_notification_description">Lai nodrošinātu vislabāko veiktspēju, ņemiet vērā tālāk sniegtos padomus.</string>
+    <string name="frr_notification_learn_more">&lt;a href=\'http://g.co/pixel/screenprotector\'&gt;Uzzināt vairāk&lt;/a&gt;</string>
+    <string name="frr_notification_non_mfg_sp_description">Izmantojiet ekrāna aizsargplēvi, kam ir “Made for Google” sertifikāts. Citas ekrāna aizsargplēves var traucēt sensora darbību un neļaut tam droši darboties.</string>
+    <string name="frr_notification_non_mfg_sp_title">Izmantojiet sertificētu ekrāna aizsargplēvi</string>
+    <string name="frr_notification_reset_fingerprint_button">Dzēst un iestatīt autorizāciju ar pirksta nospiedumu</string>
+    <string name="frr_notification_reset_fingerprint_description">Dažkārt tas var novērst problēmas, jo īpaši, ja nesen pievienojāt vai noņēmāt ekrāna aizsargplēvi.</string>
+    <string name="frr_notification_reset_fingerprint_title">Vēlreiz iestatiet autorizāciju ar pirksta nospiedumu</string>
+    <string name="frr_notification_screen_protector_description">Tas var ietekmēt pirksta nospieduma atpazīšanu. Izmantojiet ekrāna aizsargplēvi, kam ir “Made for Google” sertifikāts. Citas ekrāna aizsargplēves var traucēt sensora darbību un neļaut tam droši darboties.</string>
+    <string name="frr_notification_screen_protector_title">Ja izmantojat ekrāna aizsargplēvi…</string>
+    <string name="frr_notification_set_face_unlock_description">Izmantojiet autorizāciju pēc sejas, ja netiek atpazīts pirksta nospiedums, piemēram, kad pirksti ir mitri.</string>
+    <string name="frr_notification_set_face_unlock_title">Iestatiet autorizāciju pēc sejas</string>
+    <string name="frr_notification_title">Vai radušās problēmas saistībā ar autorizāciju ar pirksta nospiedumu?</string>
+    <string name="security_settings_face_enroll_consent_message">Atļaujiet bērnam izmantot seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti lietotnēs.</string>
+    <string name="security_settings_face_enroll_consent_secure_and_helpful_message_1">Bērna sejas modelis tiek glabāts tikai ierīcē un nekad netiek nosūtīts uzņēmumam Google.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">Tagad, paņemot tālruni vai pieskaroties ekrānam, varat izmantot seju, lai atbloķētu tālruni.\n\nAutorizācija pēc sejas vislabāk darbojas, ja ir pietiekams apgaismojums un jūs nevalkājat masku vai tumšas brilles.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp_folded">Tagad, paņemot tālruni vai pieskaroties tā ekrānam, varat izmantot autorizāciju pēc sejas. Tālrunim jābūt salocītam, lai varētu izmantot autorizāciju pēc sejas.\n\nAutorizācija pēc sejas vislabāk darbojas, ja ir pietiekams apgaismojums un jūs nevalkājat masku vai tumšas brilles.</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message_1">Jūs un jūsu bērns varat jebkurā laikā dzēst sejas modeli vai iestatījumos izslēgt autorizāciju pēc sejas. Sejas modeļi tiek glabāti tālrunī, līdz tie tiek dzēsti.</string>
+    <string name="security_settings_face_enroll_introduction_control_message_2">Varat jebkurā laikā dzēst sejas modeli vai iestatījumos izslēgt autorizāciju pēc sejas. Sejas modeļi tiek glabāti tālrunī, līdz jūs tos izdzēšat.</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message_1">Iestatot autorizāciju pēc sejas, tiek izveidots unikāls jūsu bērna sejas modelis bērna identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo sejas modeli, jūsu bērns uzņems savas sejas attēlus no dažādiem leņķiem.\n\nIzmantojot autorizāciju pēc sejas, sejas modeļa atjaunināšanai tiek izmantoti attēli. Sejas modeļa izveidei izmantotie attēli nekad netiek saglabāti, savukārt sejas modelis tiek droši glabāts tālrunī un vienmēr atrodas tikai tajā. Apstrāde tiek veikta drošā veidā un tikai tālrunī.</string>
+    <string name="security_settings_face_enroll_introduction_learn_more_message">Uzziniet vairāk vietnē &lt;a href=\'http://g.co/pixel/faceunlock\'&gt;g.co/pixel/faceunlock&lt;/a&gt;</string>
+    <string name="security_settings_face_enroll_introduction_message_class3_2">Izmantojiet autorizāciju pēc sejas, lai atbloķētu tālruni vai apstiprinātu savu identitāti lietotnēs.</string>
+    <string name="security_settings_face_enroll_introduction_secure_and_helpful_message_1">Jūsu sejas modelis tiek glabāts tikai ierīcē un nekad netiek nosūtīts uzņēmumam Google.</string>
+    <string name="security_settings_face_enroll_introduction_secure_and_helpful_message_2">Lai gūtu vislabāko pieredzi, iestatiet autorizāciju pēc sejas un autorizāciju ar pirksta nospiedumu.</string>
+    <string name="security_settings_face_enroll_next">Tālāk</string>
+    <string name="security_settings_face_enroll_partial_message">Lai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc sejas.</string>
+    <string name="security_settings_face_enroll_partial_start_over">Sākt vēlreiz</string>
+    <string name="security_settings_face_enroll_partial_title">Autorizācija pēc sejas — pabeigta iestatīšana</string>
+    <string name="security_settings_face_enroll_timeout_message">Izmēģiniet ātro iestatīšanu. Ņemiet vērā, ka, izmantojot autorizāciju pēc sejas, jūsu galvai jābūt tieši pretī tālrunim.\n\nLai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc sejas.</string>
+    <string name="security_settings_face_enroll_timeout_title">Nevar turpināt iestatīšanu</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Mēģināt vēlreiz</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Izmantot ātro iestatīšanu</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Iziet no iestatīšanas</string>
+    <string name="security_settings_face_enroll_too_hot_message">Autorizācijas pēc sejas iestatīšanu nevar pabeigt, jo tālrunis ir pārāk karsts. Kad tālrunis atdzisīs, mēģiniet vēlreiz.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Izlaist autorizāciju pēc sejas</string>
+    <string name="security_settings_face_enroll_too_hot_title">Tālrunis ir pārāk karsts</string>
+    <string name="security_settings_fingerprint_enroll_consent_message">Atļaujiet bērnam izmantot pirksta nospiedumu, lai atbloķētu tālruni vai apstiprinātu savu identitāti lietotnēs.</string>
+    <string name="security_settings_fingerprint_enroll_consent_secure_and_helpful_message_1">Bērna pirkstu nospiedumi tiek glabāti tikai ierīcē un nekad netiek nosūtīti uzņēmumam Google.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_footer_title_3">Droši un ērti</string>
+    <string name="security_settings_fingerprint_enroll_introduction_v3_message_2">Izmantojiet pirkstu nospiedumus, lai atbloķētu tālruni vai apstiprinātu savu identitāti lietotnēs.</string>
+    <string name="security_settings_fingerprint_enroll_repeat_title_immobile_overlay" />
+    <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6_2">Ja jums ir ekrāna aizsargplēve, uzklājiet to pirms pirksta nospieduma iestatīšanas, lai nodrošinātu vislabāko darbību.\n\nLai iegūtu vislabākos rezultātus, izmantojiet ekrāna aizsargplēvi, kam ir “Made for Google” sertifikāts. Ar citām ekrāna aizsargplēvēm jūsu pirksta nospiedums, iespējams, nedarbosies.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_7">Jūsu pirkstu nospiedumi tiek glabāti tikai ierīcē un nekad netiek nosūtīti uzņēmumam Google.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_8">Lai gūtu vislabāko pieredzi, pievienojiet vismaz divu pirkstu nospiedumus un iestatiet autorizāciju pēc sejas.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more_2">Uzziniet vairāk vietnē &lt;a href=\'http://g.co/pixel/fingerprintunlock\'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;.</string>
+    <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_left_edge_title_immobile_overlay" />
+    <string name="security_settings_sfps_enroll_right_edge_title_immobile_overlay" />
+    <string name="security_settings_udfps_enroll_start_message_new">Turiet pirkstu plakaniski uz sensora, līdz sajūtat vibrāciju. Vienlaikus iestatiet tikai vienu pirkstu.</string>
+    <string name="security_settings_udfps_enroll_start_message_without_haptic">Turiet pirkstu plakaniski uz sensora, līdz norises josla ir aizpildīta. Vienlaikus iestatiet tikai vienu pirkstu.</string>
+    <string name="setup_fingerprint_enroll_immobile_help_continue" />
+    <string name="setup_fingerprint_enroll_immobile_help_subtitle" />
+    <string name="setup_fingerprint_enroll_immobile_help_title" />
+
+    <!-- Simple mode / Simple view -->
+    <string name="simple_mode_category">Ātrā piekļuve</string>
+    <string name="simple_mode_description">Lielāki teksta un ikonu izmēri, vienkāršots izkārtojums un pievienotas navigācijas pogas. LINK_BEGINUzziniet vairāk par vienkāršo skatuLINK_END.</string>
+    <string name="simple_mode_off_summary">Izslēgts / Vienkāršot ekrāna izkārtojumu un padarīt tekstu salasāmāku</string>
+    <string name="simple_mode_on_summary">Ieslēgts / Vienkāršot ekrāna izkārtojumu un padarīt tekstu salasāmāku</string>
+    <string name="simple_mode_summary">Uzlabojiet teksta salasāmību un vienkāršojiet ekrāna izkārtojumu un navigāciju ekrānā.</string>
+    <string name="simple_mode_suw_description">Pārskatāmākam noformējumam un vienkāršai darba sākšanai Pixel var automātiski lejupielādēt svarīgas lietotnes un logrīkus, optimizēt ekrāna izkārtojumu, pielāgot fontu un paveikt daudz ko citu.</string>
+    <string name="simple_mode_suw_done_button">Gatavs</string>
+    <string name="simple_mode_switch_title">Izmantot vienkāršo skatu</string>
+    <string name="simple_mode_title">Vienkāršais skats</string>
+    <string name="simple_view_dialog_negative_button">Atcelt</string>
+    <string name="simple_view_dialog_positive_button">Turpināt</string>
+    <string name="simple_view_feature_disabled_dialog_message">Izslēdzot vienkāršo skatu, ierīcē tiks atjaunoti sākotnējie fonta, attēlojuma un izkārtojuma iestatījumi. Uzziniet, kā mainīt šos atsevišķos fontu iestatījumus.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Ierīcē tiks atjaunoti iepriekšējie iestatījumi</string>
+    <string name="simple_view_feature_enabled_dialog_message">Jūsu pašreizējais fonta lielums ir lielāks par vienkāršā skata iestatījumos noteikto. Izmantojot vienkāršo skatu, fonta lielums samazināsies.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Fonta lielums samazināsies</string>
+</resources>
+=======
+>>>>>>> BASE      (ccd967e64acab8f54fc30cc2420664fc8ac8d5c2 Settings: Use expressive theme for gaze toggle)
