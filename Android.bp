@@ -128,6 +128,13 @@ android_library {
         "device-state-schema",
         "dynamiccolors",
         "com.android.text.flags-aconfig-java",
+
+        // Additional dependencies
+        "androidx.datastore_datastore-preferences-rxjava2",
+        "androidx.datastore_datastore-preferences-core",
+        "androidx.datastore_datastore-rxjava2",
+        "kotlinx_coroutines_reactive",
+        "rxjava",
     ],
 
     plugins: [
