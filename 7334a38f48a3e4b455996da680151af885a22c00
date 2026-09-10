@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e74ef8f_6fe20af3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2026-09-10T10:18:49Z",
+      "side": 1,
+      "message": "This should be gated on non-Pixels, but due to the sheer size of the implementation it will perhaps be done after this is merged",
+      "revId": "7334a38f48a3e4b455996da680151af885a22c00",
+      "serverId": "c809e42e-2716-43b8-85a5-914f291e2dfa"
+    }
+  ]
+}
