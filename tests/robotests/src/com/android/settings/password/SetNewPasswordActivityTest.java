@@ -27,6 +27,7 @@ import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_C
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_DEVICE_PASSWORD_REQUIREMENT_ONLY;
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_IS_CALLING_APP_ADMIN;
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_REQUESTED_MIN_COMPLEXITY;
+import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_USE_EXPRESSIVE_STYLE;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -118,6 +119,23 @@ public class SetNewPasswordActivityTest {
         Intent nextIntent = shadowActivity.getNextStartedActivityForResult().intent;
         assertThat(nextIntent.getComponent())
                 .isEqualTo(new ComponentName(activity, SetupChooseLockGeneric.class));
+    }
+
+    @Test
+    public void testSetupChooseLockGeneric_withExpressiveStyle() {
+        Settings.Global.putInt(RuntimeEnvironment.application.getContentResolver(),
+                Settings.Global.DEVICE_PROVISIONED, 0);
+        Intent intent = new Intent(ACTION_SET_NEW_PASSWORD);
+        intent.putExtra(WizardManagerHelper.EXTRA_IS_SETUP_FLOW, true);
+        intent.putExtra(EXTRA_KEY_USE_EXPRESSIVE_STYLE, true);
+        SetNewPasswordActivity activity =
+                Robolectric.buildActivity(SetNewPasswordActivity.class, intent).create().get();
+        ShadowActivity shadowActivity = Shadows.shadowOf(activity);
+
+        Intent nextIntent = shadowActivity.getNextStartedActivityForResult().intent;
+        assertThat(nextIntent.getComponent())
+                .isEqualTo(new ComponentName(activity, SetupChooseLockGeneric.class));
+        assertThat(nextIntent.getBooleanExtra(EXTRA_KEY_USE_EXPRESSIVE_STYLE, false)).isTrue();
     }
 
     @Test

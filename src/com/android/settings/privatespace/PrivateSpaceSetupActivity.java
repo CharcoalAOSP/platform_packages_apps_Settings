@@ -28,6 +28,7 @@ import com.android.settings.R;
 import com.android.settings.SetupWizardUtils;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+import com.android.settingslib.widget.SettingsThemeHelper;
 
 import com.google.android.setupdesign.util.ThemeHelper;
 
@@ -42,8 +43,16 @@ public class PrivateSpaceSetupActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(SetupWizardUtils.getTheme(this, getIntent()));
-        ThemeHelper.trySetDynamicColor(this);
+        if (ThemeHelper.shouldApplyGlifExpressiveStyle(getApplicationContext())
+                || SettingsThemeHelper.isExpressiveTheme(this)) {
+            if (!ThemeHelper.trySetSuwTheme(this)) {
+                setTheme(ThemeHelper.getSuwDefaultTheme(getApplicationContext()));
+                ThemeHelper.trySetDynamicColor(this);
+            }
+        } else {
+            setTheme(SetupWizardUtils.getTheme(this, getIntent()));
+            ThemeHelper.trySetDynamicColor(this);
+        }
         super.onCreate(savedInstanceState);
         mMetricsFeatureProvider = FeatureFactory.getFeatureFactory().getMetricsFeatureProvider();
         setContentView(R.layout.privatespace_setup_root);

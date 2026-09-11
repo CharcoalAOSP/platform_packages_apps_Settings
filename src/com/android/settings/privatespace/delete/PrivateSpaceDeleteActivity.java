@@ -25,6 +25,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.android.settings.R;
 import com.android.settings.SetupWizardUtils;
 import com.android.settingslib.core.instrumentation.Instrumentable;
+import com.android.settingslib.widget.SettingsThemeHelper;
 
 import com.google.android.setupdesign.util.ThemeHelper;
 
@@ -36,8 +37,16 @@ public class PrivateSpaceDeleteActivity extends FragmentActivity implements Inst
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(SetupWizardUtils.getTheme(this, getIntent()));
-        ThemeHelper.trySetDynamicColor(this);
+        if (ThemeHelper.shouldApplyGlifExpressiveStyle(getApplicationContext())
+                || SettingsThemeHelper.isExpressiveTheme(this)) {
+            if (!ThemeHelper.trySetSuwTheme(this)) {
+                setTheme(ThemeHelper.getSuwDefaultTheme(getApplicationContext()));
+                ThemeHelper.trySetDynamicColor(this);
+            }
+        } else {
+            setTheme(SetupWizardUtils.getTheme(this, getIntent()));
+            ThemeHelper.trySetDynamicColor(this);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.privatespace_setup_root);
         NavHostFragment navHostFragment =

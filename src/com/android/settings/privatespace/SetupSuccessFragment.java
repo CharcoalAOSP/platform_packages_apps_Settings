@@ -37,11 +37,13 @@ import androidx.annotation.Nullable;
 import com.android.settings.R;
 import com.android.settings.core.InstrumentedFragment;
 import com.android.settingslib.widget.LottieColorUtils;
+import com.android.settingslib.widget.SettingsThemeHelper;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.setupcompat.template.FooterBarMixin;
 import com.google.android.setupcompat.template.FooterButton;
 import com.google.android.setupdesign.GlifLayout;
+import com.google.android.setupdesign.util.ThemeHelper;
 
 import java.util.List;
 
@@ -78,6 +80,10 @@ public class SetupSuccessFragment extends InstrumentedFragment {
         requireActivity().getOnBackPressedDispatcher().addCallback(this, callback);
         LottieAnimationView lottieAnimationView = rootView.findViewById(R.id.lottie_animation);
         LottieColorUtils.applyDynamicColors(getContext(), lottieAnimationView);
+        if (ThemeHelper.shouldApplyGlifExpressiveStyle(getContext())
+                || SettingsThemeHelper.isExpressiveTheme(getContext())) {
+            LottieColorUtils.applyMaterialColor(getContext(), lottieAnimationView);
+        }
         lottieAnimationView.setOnClickListener(v -> handleAnimationClick(lottieAnimationView));
         PrivateSpaceAccessibilityUtils.updateAccessibilityActionForAnimation(getContext(),
                 lottieAnimationView, mIsAnimationPlaying);

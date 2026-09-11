@@ -23,6 +23,7 @@ import static android.app.admin.DevicePolicyManager.PASSWORD_COMPLEXITY_LOW;
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_CHOOSE_LOCK_SCREEN_DESCRIPTION;
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_CHOOSE_LOCK_SCREEN_TITLE;
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_FINGERPRINT_ENROLLMENT_ONLY;
+import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_USE_EXPRESSIVE_STYLE;
 import static com.android.settings.privatespace.PrivateSpaceSetupActivity.ACCOUNT_LOGIN_ACTION;
 import static com.android.settings.privatespace.PrivateSpaceSetupActivity.EXTRA_ACTION_TYPE;
 import static com.android.settings.privatespace.PrivateSpaceSetupActivity.SET_LOCK_ACTION;
@@ -42,6 +43,7 @@ import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
 import com.android.settings.SetupWizardUtils;
 import com.android.settings.overlay.FeatureFactory;
+import com.android.settingslib.widget.SettingsThemeHelper;
 
 import com.google.android.setupdesign.util.ThemeHelper;
 
@@ -61,8 +63,16 @@ public class PrivateProfileContextHelperActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(SetupWizardUtils.getTheme(this, getIntent()));
-        ThemeHelper.trySetDynamicColor(this);
+        if (ThemeHelper.shouldApplyGlifExpressiveStyle(getApplicationContext())
+                || SettingsThemeHelper.isExpressiveTheme(this)) {
+            if (!ThemeHelper.trySetSuwTheme(this)) {
+                setTheme(ThemeHelper.getSuwDefaultTheme(getApplicationContext()));
+                ThemeHelper.trySetDynamicColor(this);
+            }
+        } else {
+            setTheme(SetupWizardUtils.getTheme(this, getIntent()));
+            ThemeHelper.trySetDynamicColor(this);
+        }
         super.onCreate(savedInstanceState);
         if (savedInstanceState == null) {
             int action = getIntent().getIntExtra(EXTRA_ACTION_TYPE, -1);
@@ -98,6 +108,10 @@ public class PrivateProfileContextHelperActivity extends FragmentActivity {
         intent.putExtra(
                 EXTRA_KEY_CHOOSE_LOCK_SCREEN_DESCRIPTION,
                 R.string.private_space_lock_setup_description);
+        intent.putExtra(
+                EXTRA_KEY_USE_EXPRESSIVE_STYLE,
+                ThemeHelper.shouldApplyGlifExpressiveStyle(getApplicationContext())
+                        || SettingsThemeHelper.isExpressiveTheme(this));
         mSetNewPrivateProfileLock.launch(intent);
     }
 

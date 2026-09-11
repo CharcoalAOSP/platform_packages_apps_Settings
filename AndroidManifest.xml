@@ -5882,7 +5882,7 @@
 
         <activity
             android:name=".privatespace.PrivateSpaceSetupActivity"
-            android:theme="@style/GlifV3Theme.Light"
+            android:theme="@style/GlifV4Theme.DayNight"
             android:exported="false" />
 
         <activity
@@ -5895,11 +5895,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".privatespace.PrivateProfileContextHelperActivity" android:exported="false"/>
+        <activity
+            android:name=".privatespace.PrivateProfileContextHelperActivity"
+            android:theme="@style/GlifV4Theme.DayNight"
+            android:exported="false" />
 
         <activity android:name=".privatespace.delete.PrivateSpaceDeleteActivity"
                   android:label="@string/private_space_delete_header"
-                  android:theme="@style/GlifV3Theme.Light"
+                  android:theme="@style/GlifV4Theme.DayNight"
                   android:exported="false">
         </activity>
 

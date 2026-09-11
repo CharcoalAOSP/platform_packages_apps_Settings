@@ -30,6 +30,7 @@ import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_D
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_FINGERPRINT_ENROLLMENT_ONLY;
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_IS_CALLING_APP_ADMIN;
 import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_REQUESTED_MIN_COMPLEXITY;
+import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_USE_EXPRESSIVE_STYLE;
 
 import android.app.Activity;
 import android.app.RemoteServiceException.MissingRequestPasswordComplexityPermissionException;
@@ -145,6 +146,10 @@ public class SetNewPasswordActivity extends Activity implements SetNewPasswordCo
             intent.putExtra(EXTRA_KEY_IS_CALLING_APP_ADMIN, true);
         }
         intent.putExtra(EXTRA_KEY_DEVICE_PASSWORD_REQUIREMENT_ONLY, mDevicePasswordRequirementOnly);
+        if (getIntent().hasExtra(EXTRA_KEY_USE_EXPRESSIVE_STYLE)) {
+            intent.putExtra(EXTRA_KEY_USE_EXPRESSIVE_STYLE,
+                    getIntent().getBooleanExtra(EXTRA_KEY_USE_EXPRESSIVE_STYLE, false));
+        }
         // Copy the setup wizard intent extra to the intent.
         WizardManagerHelper.copyWizardManagerExtras(getIntent(), intent);
         startActivity(intent);
