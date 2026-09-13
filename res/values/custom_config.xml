@@ -10,5 +10,5 @@
     <bool name="config_show_battery_info">true</bool>
 
     <!-- Show battery cycle count -->
-    <bool name="config_show_battery_cycle_count">true</bool>
+    <bool name="config_show_battery_cycle_count">false</bool>
 </resources>
